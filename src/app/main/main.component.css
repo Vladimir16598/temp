@@ -435,7 +435,7 @@ filter: brightness(0) invert(1);
   width: min-content;
 }
 .name {
-  position: absolute;
+  position: relative;
   color: white;
 }
 
@@ -458,4 +458,26 @@ filter: brightness(0) invert(1);
 
 .font-newsItalic {
   font-family: "CodecPro-NewsItalic"
+}
+
+#carousel {
+  width: 50%;
+  position: relative;
+  right: 0%;
+}
+.carousel-item {
+  text-align: center;
+}
+.carousel-item p {
+  width: 50%;
+  margin: auto;
+}
+.row {
+  margin: 0em;
+}
+.mobi-bg {
+  height: 1060px;
+  background-image: url('../../assets/images/backgroung.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
