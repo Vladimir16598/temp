@@ -1,0 +1,15 @@
+.navbar-brand {
+  filter: brightness(0) invert(1);
+}
+
+.bg {
+  background-color: #FF8366;
+}
+
+.font-bold-italic {
+  font-family: "CodecPro-BoldItalic";
+}
+
+.navbar-nav {
+  flex-direction: column;
+}
