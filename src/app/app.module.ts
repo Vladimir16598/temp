@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { DeviceDetectorService } from 'ngx-device-detector';
+import { SecondComponent } from './second/second.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
-    NavigationComponent
+    NavigationComponent,
+    SecondComponent
   ],
   imports: [
     BrowserModule,
