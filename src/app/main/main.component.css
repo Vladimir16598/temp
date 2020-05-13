@@ -357,7 +357,7 @@ height: 19px;
 z-index:33;
 }
 #layer_37 h1{
- margin: 0;
+margin: 0;
 color: #ffffff;
 font-family: "CodecPro-BoldItalic";
 font-size: 30px;
@@ -431,7 +431,7 @@ filter: brightness(0) invert(1);
 
 .name h1{
   position: relative;
-  right: -18%;
+  /* right: -18%; */
   width: min-content;
 }
 .name {
@@ -443,12 +443,12 @@ filter: brightness(0) invert(1);
   background-color: white;
   text-align: right;
   position: relative;
-  right: 10%;
+  /* right: 10%; */
 }
 
 .kouch {
   height: 70px;
-  width: 550px;
+  /* width: 550px; */
   color: #fa8267;
   font-family: inherit;
   font-size: 20pt;
@@ -461,23 +461,53 @@ filter: brightness(0) invert(1);
 }
 
 #carousel {
-  width: 50%;
   position: relative;
-  right: 0%;
+  margin-top: 250px;
+}
+.carousel-item #big{
+
+}
+.carousel-item #small{
+  font-size: xx-small;
 }
 .carousel-item {
   text-align: center;
 }
 .carousel-item p {
+  color: #ffffff;
   width: 50%;
   margin: auto;
+  line-height: normal;
+  font-family: "CodecPro-BoldItalic";
 }
 .row {
   margin: 0em;
 }
 .mobi-bg {
-  height: 1060px;
+  /* height: 1060px; */
   background-image: url('../../assets/images/backgroung.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+}
+
+.perehod-button .col-12 h5{
+  margin: 0;
+  color: #ffffff;
+  font-family: "CodecPro-BoldItalic";
+  background-color: #FF5E94;
+  text-align: center;
+
+}
+.perehod-button .col-12{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.perehod-div {
+  padding: 8px 16px 8px 16px;
+  border: #ffffff solid 1px;
+}
+.footer {
+  margin-top: 10%;
 }
