@@ -76,6 +76,10 @@
 .mobileMobile #carousel {
   margin-top: 5%;
 }
+.font-color-white{
+
+  color: #ffffff;
+}
 .mobileMobile {
     background-image: url('../../assets/images/mobMobile.png');
     bottom: 0%;
@@ -91,4 +95,12 @@
 
 .row {
   margin: 0%;
+}
+
+.links img{
+  padding: 5%;
+}
+
+.prizes .col-12 img {
+  width: 100%;
 }
