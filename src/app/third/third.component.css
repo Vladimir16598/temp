@@ -215,3 +215,188 @@
 .font-bold-italic {
   font-family: "CodecPro-BoldItalic";
 }
+.mobi-bg {
+  /* height: 1060px; */
+  background-image: url('../../assets/images/v3.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.freelancerMobi {
+  border: white 1px solid;
+    border-radius: 5px;
+    margin-left: 5%;
+    height: 100%;
+    position: relative;
+}
+
+.freelancerMobi .inner .col-12{
+  padding-right: 0%;
+}
+.freelancerMobi .inner h5{
+    background-color: white;
+    position: relative;
+    right: 24%;
+    width: 124%;
+    font-family: "CodecPro-BoldItalic";
+    text-align: right;
+    padding-right: 10px;
+    color: #FA8267;
+}
+.freelancerMobi .inner p{
+  color: white;
+  font-family: "CodecPro-ExtraLightItalic";
+}
+.freelancerMobi .inner {
+  border: white 1px solid;
+  border-radius: 5px;
+  position: relative;
+  right: 10%;
+  bottom: -9%;
+}
+
+.freelancerMobi .buy button{
+  background-color: white;
+  border: 0;
+  font-family: "CodecPro-BoldItalic";
+  color: #FA8267;
+}
+
+.recruterMobi {
+  border: white 1px solid;
+    border-radius: 5px;
+    margin-left: 5%;
+    height: 100%;
+    position: relative;
+    padding-top: 1%;
+}
+
+.recruterMobi .inner .col-12{
+  padding-right: 0%;
+}
+.recruterMobi .inner p{
+  color: #FA8267;
+  font-family: "CodecPro-BoldItalic";
+}
+.recruterMobi .inner h5{
+    background-color: #FA8267;
+    position: relative;
+    right: 16%;
+    width: 124%;
+    font-family: "CodecPro-BoldItalic";
+    text-align: center;
+    padding-right: 10px;
+    color: white;
+    border: white 1px solid;
+}
+.recruterMobi .inner {
+  background-color: white;
+  border: white 1px solid;
+  border-radius: 5px;
+  position: relative;
+  right: 10%;
+  bottom: -5%;
+}
+
+.recruterMobi .buy button{
+  background-color: #FA8267;
+  border: 0;
+  font-family: "CodecPro-BoldItalic";
+  color: white;
+}
+
+.bisnessmanMobi {
+  border: white 1px solid;
+    border-radius: 5px;
+    margin-left: 5%;
+    height: 100%;
+    position: relative;
+    padding-top: 1%;
+}
+
+.bisnessmanMobi .inner .col-12{
+  padding-right: 0%;
+}
+.bisnessmanMobi .inner p{
+  color: white;
+  font-family: "CodecPro-BoldItalic";
+}
+.bisnessmanMobi .inner h5{
+    background-color: white;
+    position: relative;
+    left: 0%;
+    width: 124%;
+    font-family: "CodecPro-BoldItalic";
+    text-align: center;
+    padding-right: 10px;
+    color: #FA8267;
+}
+.bisnessmanMobi .inner .col-12{
+  padding: 0%;
+}
+.bisnessmanMobi .inner {
+  background-color: #FA8267;
+  border: white 1px solid;
+  border-radius: 5px;
+  position: relative;
+  right: 10%;
+  bottom: -5%;
+}
+
+.bisnessmanMobi .buy button{
+  background-color: white;
+  border: 0;
+  font-family: "CodecPro-BoldItalic";
+  color: #FA8267;
+}
+
+.millionerMobi {
+  border: white 1px solid;
+    border-radius: 5px;
+    margin-left: 5%;
+    height: 100%;
+    position: relative;
+    padding-top: 1%;
+}
+
+.millionerMobi .inner .col-12{
+  padding-right: 0%;
+}
+.millionerMobi .inner p{
+  color: white;
+  font-family: "CodecPro-BoldItalic";
+}
+.millionerMobi .inner h5{
+    background-color: white;
+    position: relative;
+    right: 24%;
+    width: 124%;
+    font-family: "CodecPro-BoldItalic";
+    text-align: center;
+    padding-right: 10px;
+    color: #FA8267;
+}
+.millionerMobi .inner .col-12{
+  padding: 0%;
+}
+.millionerMobi .inner {
+  background-color: #FA8267;
+  border: white 1px solid;
+  border-radius: 5px;
+  position: relative;
+  right: 10%;
+  bottom: -5%;
+}
+
+.millionerMobi .buy button{
+  background-color: white;
+  border: 0;
+  font-family: "CodecPro-BoldItalic";
+  color: #FA8267;
+}
+.uspehMobi {
+  justify-content: center;
+}
+.uspehMobi img{
+  width: 100%;
+}
