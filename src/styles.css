@@ -13,6 +13,11 @@
 }
 
 @font-face {
+	font-family: "CodecPro-Light";
+	src: url("assets/CodecPro-Light.eot");
+	src: url("assets/CodecPro-Light.woff") format("woff");
+}
+@font-face {
 	font-family: "CodecPro-NewsItalic";
 	src: url("assets/CodecPro-NewsItalic.eot");
 	src: url("assets/CodecPro-NewsItalic.woff") format("woff");

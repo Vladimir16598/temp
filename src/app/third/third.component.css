@@ -38,7 +38,7 @@
 }
 .freelancer .inner p{
   color: white;
-  font-family: "CodecPro-ExtraLightItalic";
+  font-family: "CodecPro-Light";
 }
 .freelancer .inner {
   border: white 1px solid;
@@ -118,7 +118,7 @@
 }
 .bisnessman .inner p{
   color: white;
-  font-family: "CodecPro-BoldItalic";
+  font-family: "CodecPro-Light";
 }
 .bisnessman .inner h5{
     background-color: white;
@@ -165,7 +165,7 @@
 }
 .millioner .inner p{
   color: white;
-  font-family: "CodecPro-BoldItalic";
+  font-family: "CodecPro-Light";
 }
 .millioner .inner h5{
     background-color: white;

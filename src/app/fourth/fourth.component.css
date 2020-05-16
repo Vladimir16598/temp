@@ -106,6 +106,9 @@
   color: #FA8267;
 }
 
+.codecLight {
+  font-family: "CodecPro-Light";
+}
 .extraLightItalic {
 
   font-family: "CodecPro-ExtraLightItalic";
@@ -120,7 +123,7 @@
 .too p{
   margin: 0%;
   color: #ffffff;
-  font-family: "CodecPro-ExtraLightItalic";
+  font-family: "CodecPro-Light";
 }
 .mobi-bg {
   /* height: 1060px; */

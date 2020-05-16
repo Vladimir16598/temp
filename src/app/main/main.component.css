@@ -453,9 +453,10 @@ filter: brightness(0) invert(1);
 
 }
 .carousel-item #small{
-  font-size: xx-small;
+  font-size: medium;
 }
 .carousel-item {
+  padding-top: 5%;
 }
 .carousel-item p {
   color: #ffffff;

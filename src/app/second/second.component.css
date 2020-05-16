@@ -39,14 +39,16 @@
   margin-top: 5%;
   line-height: normal;
   text-align: justify;
-  font-family: "CodecPro-ExtraLightItalic";
 }
 .carousel-control-prev span, .carousel-control-next span{
   height: 100%;
-  width: 30%;
+  width: 15%;
 }
 .carousel-control-prev, .carousel-control-next {
   width: 25%;
+}
+.font-codec-light {
+  font-family: "CodecPro-Light";
 }
 .font-bold-italic {
   font-family: "CodecPro-BoldItalic";
