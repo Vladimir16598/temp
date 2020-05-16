@@ -26,4 +26,9 @@ export class SecondComponent implements OnInit {
     this.height = event.target.innerHeight;
     this.isMobile = this.width < this.mobileWidth;
   }
+  scroll(id) {
+    console.log(`scrolling to ${id}`);
+    let el = document.getElementById(id);
+    el.scrollIntoView();
+  }
 }

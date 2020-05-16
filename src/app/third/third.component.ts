@@ -27,4 +27,9 @@ export class ThirdComponent implements OnInit {
     this.isMobile = this.width < this.mobileWidth;
     console.log("Mobiel ", this.isMobile);
   }
+  scroll(id) {
+    console.log(`scrolling to ${id}`);
+    let el = document.getElementById(id);
+    el.scrollIntoView();
+  }
 }

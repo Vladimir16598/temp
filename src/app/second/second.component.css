@@ -1,5 +1,5 @@
 .desktop-bg {
-  background-image: url('../../assets/images/appback.png');
+  background-image: url('../../assets/images/app.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -104,4 +104,8 @@
 
 .prizes .col-12 img {
   width: 100%;
+}
+
+.h-80 {
+  height: 80%;
 }

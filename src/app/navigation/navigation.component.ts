@@ -12,4 +12,9 @@ export class NavigationComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  scroll(id) {
+    console.log(`scrolling to ${id}`);
+    let el = document.getElementById(id);
+    el.scrollIntoView();
+  }
 }

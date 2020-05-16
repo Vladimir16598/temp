@@ -1,6 +1,9 @@
-<div *ngIf="!isMobile" class="fluid-container   first-desktop-bg">
+<div *ngIf="!isMobile" class="fluid-container   first-desktop-bg" id="main">
   <div class="row vh-100" style="">
-    <div class="col-4">
+    <div class="col-4 d-flex justify-content-center align-items-end">
+      <a class="pb-1" (click)="scroll('appDesktop')">
+        <img src="../../assets/images/MouseDown.png" alt="">
+      </a>
       <!-- <div id="" class="circle">
       </div>
       <div id="ellipse2" class="circle1">
@@ -116,7 +119,7 @@
   </div>
 </div>
 
-<div *ngIf="isMobile" class="fluid-container bg mobi-bg">
+<div *ngIf="isMobile"  id="main"  #main class="fluid-container bg mobi-bg">
   <div class="row">
     <div class="col-12">
       <div class="name">
