@@ -1,8 +1,8 @@
-<div *ngIf="!isMobile" class="fluid-container third-desktop-bg" id="#third-desktop-bg">
+<div *ngIf="!isMobile" class="fluid-container desktop-bg">
   <div class="row" style="margin-right:0 ">
     <div class="col-10">
-      <div class="row uspeh ml-5 mt-5">
-        <img src="../../assets/images/ucpeh.png">
+      <div class="row creature ml-5 mt-5">
+        <h1 class="font-bold-italic">СОЗДАТЕЛИ МОБИЛЬНОГО ПРИЛОЖЕНИЯ</h1>
       </div>
     </div>
     <div class="col-2">
@@ -29,26 +29,12 @@
     <div class="col-9">
       <div class="row">
         <div class="col-3">
-          <div class="freelancer">
+          <div class="creaturer">
+            <img src="../../assets/images/person.png" alt="">
             <div class="inner">
               <div class="row">
                 <div class="col-12">
-                  <h5 class="mt-3">Фрилансер</h5>
-                </div>
-              </div>
-              <div class="row">
-                <div class="leaf m-auto">
-                  <img class="" src="../../assets/images/leaf.png" alt="">
-                </div>
-              </div>
-              <div class="row justify-content-center">
-                <div class="col-10">
-                 <p>Катарсис, конечно, творит дуализм, однако Зигварт считал критер</p>
-                </div>
-              </div>
-              <div class="mb-5 row justify-content-center buy">
-                <div class="col-8 d-flex justify-content-center">
-                 <button>Купить</button>
+
                 </div>
               </div>
             </div>
@@ -167,7 +153,8 @@
   </div>
 </div>
 
-<div *ngIf="isMobile" class="fluid-container bg mobi-bg pt-5">
+<div *ngIf="isMobile" class="fluid-container bg mobi-bg">
+  <app-navigation class=""></app-navigation>
   <div class="row">
     <div class="col-12">
       <div class="row uspehMobi mb-5 mt-5">

@@ -25,6 +25,5 @@ export class SecondComponent implements OnInit {
     this.width = event.target.innerWidth;
     this.height = event.target.innerHeight;
     this.isMobile = this.width < this.mobileWidth;
-    console.log("Mobiel ", this.isMobile);
   }
 }

@@ -1,14 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  selector: 'app-fourth',
+  templateUrl: './fourth.component.html',
+  styleUrls: ['./fourth.component.css'],
   host: {
     "(window:resize)":"onWindowResize($event)"
   }
 })
-export class AppComponent {
+export class FourthComponent implements OnInit {
   isMobile: boolean = false;
   width:number = window.innerWidth;
   height:number = window.innerHeight;
@@ -25,5 +25,6 @@ export class AppComponent {
     this.width = event.target.innerWidth;
     this.height = event.target.innerHeight;
     this.isMobile = this.width < this.mobileWidth;
+    console.log("Mobiel ", this.isMobile);
   }
 }

@@ -8,6 +8,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { DeviceDetectorService } from 'ngx-device-detector';
 import { SecondComponent } from './second/second.component';
 import { ThirdComponent } from './third/third.component';
+import { FourthComponent } from './fourth/fourth.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ThirdComponent } from './third/third.component';
     MainComponent,
     NavigationComponent,
     SecondComponent,
-    ThirdComponent
+    ThirdComponent,
+    FourthComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,7 @@
-<div *ngIf="!isMobile" class="fluid-container bg">
-  <div class="row " style="height: 80vh!important; margin-right:0 ">
+<div *ngIf="!isMobile" class="fluid-container   first-desktop-bg">
+  <div class="row vh-100" style="">
     <div class="col-4">
-      <div id="" class="circle">
+      <!-- <div id="" class="circle">
       </div>
       <div id="ellipse2" class="circle1">
       </div>
@@ -29,12 +29,12 @@
         <div id="Shape3"><img src="../../assets/images/Shape3.png"></div>
         <p id="mouseText"> вниз </p>
       </div>
-      <div id="VectorSmartObjectcop_0"><img src="../../assets/images/VectorSmartObjectcop_0.png"></div>
+      <div id="VectorSmartObjectcop_0"><img src="../../assets/images/VectorSmartObjectcop_0.png"></div> -->
     </div>
-    <div class="col-8">
+    <div class="col-7">
       <div class="row">
-        <div id="logo"><img src="../../assets/images/VectorSmartObject_0.png"></div>
-        <div id="right_menu">
+        <div id="logo" class="ml-5 mt-4"><img src="../../assets/images/VectorSmartObject_0.png"></div>
+        <div id="right_menu" class="ml-auto mt-4">
           <a>Главная</a>
           <a>Приложение</a>
           <a>Тарифы</a>
@@ -42,8 +42,8 @@
         </div>
       </div>
       <div class="row">
-        <div id="layer_20">
-          <h1>
+        <div id="layer_20" class="">
+          <h1 class="font-bold-italic">
           Нурия Мейрамжанова
           </h1>
         </div>
@@ -54,21 +54,9 @@
           </span>
           </p>
         </div>
-        <div id="layer_500">
-          <div id="Shape5copy"><img src="../../assets/images/Shape5copy.png"></div>
-          <div id="Shape5"><img src="../../assets/images/Shape5.png"></div>
-          <p>
-            БОЛЕЕ 500
-            часов коуч сессии
-          </p>
-        </div>
-        <div id="layer_37">
-          <div id="Rectangle10"><img src="../../assets/images/Rectangle10.png"></div>
-          <h1>Перейти к покупке приложения</h1>
-        </div>
-        <div id="rightEllipse">
+        <!-- <div id="rightEllipse">
           <img src="../../assets/images/Ellipse 2 copy.png">
-        </div>
+        </div> -->
         <div id="ellipse8" class="">
           <div id="links">
             <a>KZ</a>
@@ -79,54 +67,102 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div id="layer_500" class="ml-auto mt-5">
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p id="big">БОЛЕЕ 500</p>
+                <p id="small">часов коуч сессии</p>
+              </div>
+              <div class="carousel-item">
+                <p id="big">БОЛЕЕ 500</p>
+                <p id="small">часов коуч сессии</p>
+              </div>
+              <div class="carousel-item">
+                <p id="big">БОЛЕЕ 500</p>
+                <p id="small">часов коуч сессии</p>
+              </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="layer_37" class="ml-auto mt-5">
+          <div id="Rectangle10"><img src="../../assets/images/Rectangle10.png"></div>
+          <h1>Перейти к покупке приложения</h1>
+        </div>
+      </div>
+    </div>
+    <div class="col-1 d-flex align-items-center justify-content-end pl-0">
+      <div class="row">
+        <div id="links" class="">
+          <a class="font-bold-italic">KZ</a>
+          <a class="font-bold-italic">KZ</a>
+
+          <img id="icons" src="../../assets/images/Layer3.png">
+          <img id="icons" src="../../assets/images/Layer2.png">
+        </div>
+    </div>
     </div>
   </div>
 </div>
 
 <div *ngIf="isMobile" class="fluid-container bg mobi-bg">
-  <app-navigation></app-navigation>
   <div class="row">
     <div class="col-12">
       <div class="name">
         <h1 class="font-bold-italic">НУРИЯ МЕЙРАМЖАНОВА</h1>
-        <p class="kouch" style="margin: 0%">
-          <span id="" class="font-newsItalic">
-          Коуч по финансовой грамотности и личностному росту
-        </span>
-        </p>
       </div>
-      <div class="row">
-        <div class="col-6"></div>
-          <div class="col-6">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
-              <!-- The slideshow -->
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <p id="big">БОЛЕЕ 500</p>
-                  <p id="small">часов коуч сессии</p>
-                </div>
-                <div class="carousel-item">
-                  <p id="big">БОЛЕЕ 500</p>
-                  <p id="small">часов коуч сессии</p>
-                </div>
-                <div class="carousel-item">
-                  <p id="big">БОЛЕЕ 500</p>
-                  <p id="small">часов коуч сессии</p>
-                </div>
-              </div>
-              <!-- Left and right controls -->
-              <a class="carousel-control-prev" href="#carousel" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </a>
-              <a class="carousel-control-next" href="#carousel" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </a>
+    </div>
+  </div>
+  <div class="row pb-5">
+    <div class="col-12">
+      <p class="kouch" style="margin: 0%">
+        <span id="" class="font-newsItalic">
+        Коуч по финансовой грамотности и личностному росту
+      </span>
+      </p>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-6"></div>
+      <div class="col-6">
+        <div id="carouselMobi" class="carousel slide" data-ride="carousel">
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p id="big">БОЛЕЕ 500</p>
+              <p id="small">часов коуч сессии</p>
+            </div>
+            <div class="carousel-item">
+              <p id="big">БОЛЕЕ 500</p>
+              <p id="small">часов коуч сессии</p>
+            </div>
+            <div class="carousel-item">
+              <p id="big">БОЛЕЕ 500</p>
+              <p id="small">часов коуч сессии</p>
             </div>
           </div>
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#carouselMobi" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#carouselMobi" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
         </div>
       </div>
   </div>
-  <div class="row perehod-button">
+  <div class="row perehod-button mt-5">
     <div class="col-12">
       <div class="perehod-div">
         <h5>Перейти к покупке приложения</h5>

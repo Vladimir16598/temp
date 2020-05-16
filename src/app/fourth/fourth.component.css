@@ -1,0 +1,65 @@
+.desktop-bg {
+  background-image: url('../../assets/images/v4.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.creature h1{
+  width: 50%;
+  text-align: left;
+  color: white;
+}
+.navigation a{
+  padding: 0%;
+  color: #ffffff;
+}
+.font-bold-italic {
+  font-family: "CodecPro-BoldItalic";
+}
+.links a{
+  text-align: center;
+  color: #FA8267;
+}
+.links img{
+  padding: 5%;
+}
+.creaturer {
+  border: white 1px solid;
+    border-radius: 5px;
+    margin-left: 5%;
+    height: 100%;
+    position: relative;
+    left: -21%;
+}
+
+.creaturer .inner .col-12{
+  padding-right: 0%;
+}
+.creaturer .inner h5{
+    background-color: white;
+    position: relative;
+    right: 24%;
+    width: 124%;
+    font-family: "CodecPro-BoldItalic";
+    text-align: right;
+    padding-right: 10px;
+    color: #FA8267;
+    z-index: 10;
+}
+.creaturer .inner img{
+  width: 100%;
+}
+.creaturer .inner {
+  position: relative;
+  left: 10%;
+  bottom: -9%;
+}
+.leaf img {
+  margin: 22px;
+}
+
+.creaturer .buy button{
+  background-color: white;
+  border: 0;
+  font-family: "CodecPro-BoldItalic";
+  color: #FA8267;
+}

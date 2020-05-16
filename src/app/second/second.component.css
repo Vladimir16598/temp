@@ -2,7 +2,6 @@
   background-image: url('../../assets/images/appback.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 635px;
 }
 .mobile {
     background-image: url('../../assets/images/mob.png');
@@ -15,7 +14,7 @@
     justify-content: center;
     align-items: center;
 }
-#carousel {
+#SecondCarousel {
   margin-top: 45%;
 }
 .carousel-item h5{
@@ -41,6 +40,10 @@
   line-height: normal;
   text-align: justify;
   font-family: "CodecPro-ExtraLightItalic";
+}
+.carousel-control-prev span, .carousel-control-next span{
+  height: 100%;
+  width: 30%;
 }
 .carousel-control-prev, .carousel-control-next {
   width: 25%;
@@ -70,9 +73,7 @@
   background-size: 100% 100%;
 }
 
-.mobileMobile .carousel-item img{
-  width: 30%;
-}
+
 .mobileMobile #carousel {
   margin-top: 5%;
 }
