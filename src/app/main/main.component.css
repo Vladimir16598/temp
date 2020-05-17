@@ -471,7 +471,7 @@ filter: brightness(0) invert(1);
 }
 .mobi-bg {
   /* height: 1060px; */
-  background-image: url('../../assets/images/backgroung.png');
+  background-image: url('../../assets/images/V1mobi.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -500,4 +500,17 @@ filter: brightness(0) invert(1);
 }
 .footer {
   margin-top: 10%;
+}
+
+.leftSidePerson {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  height: 100%;
+}
+.leftSideImg {
+  height: 100%;
+    position: absolute;
+    /* bottom: 0%; */
+    left: 0%;
 }
