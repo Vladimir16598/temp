@@ -1,5 +1,5 @@
 .desktop-bg {
-  background-image: url('../../assets/images/v4.png');
+  background-image: url('../../assets/images/v4mobi.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -23,7 +23,7 @@
   padding: 5%;
 }
 .creaturer img{
-  width: 100%;
+  width: 110%;
   height: 70%;
 }
 .arch {
@@ -32,8 +32,7 @@
     top: 35%;
 }
 .arch img{
-  width: 100%;
-  height: 70%;
+  width: 110%;
 }
 
 .arch .inner .col-12{
@@ -56,7 +55,7 @@
 .arch .inner {
     width: 100%;
     border: 1px white solid;
-    height: 70%;
+    height: 100%;
     top: -5%;
     position: absolute;
     left: -10%;
@@ -90,7 +89,7 @@
 .creaturer .inner {
     width: 100%;
     border: 1px white solid;
-    height: 70%;
+    height: 100%;
     top: -5%;
     position: absolute;
     left: -10%;
@@ -154,6 +153,50 @@
   margin: 0%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px){
 
+  .first p {
+    font-size: x-small;
+  }
+  .creature h1 {
+    width: 70%;
+  }
+
+  .header {
+    height: 15%;
+  }
+  .footer {
+    height: 20%;
+    align-items: flex-end;
+  }
+  .main {
+    height: 40%;
+  }
+  .first p {
+    font-size: x-small;
+  }
+  .mouse img{
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .desktop-bg {
+    background-image: url('../../assets/images/v4.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .header {
+    height: 15%;
+  }
+  .footer {
+    height: 20%;
+    align-items: flex-end;
+  }
+  .main {
+    height: 50%;
+  }
+  .first p {
+    font-size: small;
+  }
 }

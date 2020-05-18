@@ -6,6 +6,8 @@
 
 #SecondCarousel {
   margin-top: 45%;
+  margin-bottom: 15%;
+  margin-right: 5%;
 }
 .carousel-item h5{
 
@@ -24,11 +26,12 @@
 }
 .carousel-item p {
   color: #ffffff;
-  width: 50%;
+  width: 70%;
   margin: auto;
   margin-top: 5%;
   line-height: normal;
   text-align: justify;
+  font-size: 80%;
 }
 .carousel-control-prev span, .carousel-control-next span{
   height: 100%;
@@ -80,7 +83,7 @@
     background-size: 100% 100%;
     position: relative;
     height: 100%;
-    padding: 20%;
+    padding: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,6 +122,24 @@
     justify-content: center;
     align-items: center;
   }
+  .carousel-control-prev {
+    width: 25%;
+    display: flex;
+    justify-content: start;
+  }
+
+  .carousel-control-next {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+#SecondCarousel {
+  margin-top: 50%;
+  margin-bottom: 15%;
+  margin-right: 5%;
+}
 }
 
 @media (min-width: 1200px) {
@@ -138,4 +159,22 @@
     justify-content: center;
     align-items: center;
   }
+  .carousel-control-prev {
+    width: 25%;
+    display: flex;
+    justify-content: start;
+  }
+
+  .carousel-control-next {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+#SecondCarousel {
+  margin-top: 50%;
+  margin-bottom: 15%;
+  margin-right: 5%;
+}
 }
