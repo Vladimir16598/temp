@@ -1,5 +1,5 @@
-<div *ngIf="!isMobile" #tarifDesktop class="fluid-container third-desktop-bg" id="tarifDesktop">
-  <div class="row ">
+<div *ngIf="true" #tarifDesktop class="fluid-container third-desktop-bg" id="tarifDesktop">
+  <div class="row">
     <div class="col-12 p-0">
       <div class="row" style="margin-right:0 ">
         <div class="col-10">
@@ -8,7 +8,7 @@
           </div>
         </div>
         <div class="col-2">
-          <div class="row navigation">
+          <div class="row navigation d-lg-flex">
             <ul class="ml-auto mr-5 mt-2 navbar-nav">
               <li class="nav-item active">
                 <a class="nav-link font-bold-italic" (click)="scroll('main')">Главная<span class="sr-only">(current)</span></a>
@@ -27,10 +27,10 @@
         </div>
       </div>
       <div class="row mt-4">
-        <div class="col-1"></div>
-        <div class="col-9">
-          <div class="row">
-            <div class="col-3">
+        <div class="col-2 col-sm-2 col-md-2 col-lg-1"></div>
+        <div class="col-8 col-sm-8 col-md-8 col-lg-9">
+          <div class="row cards">
+            <div class="col-lg-3 col-md-12 col-sm-12">
               <div class="freelancer">
                 <div class="inner">
                   <div class="row">
@@ -56,7 +56,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-sm-12 standardtarifs">
+              <h3 class="font-bold-italic text-white">СТАНДАРТНЫЕ
+                ТАРИФЫ</h3>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12">
               <div class="recruter">
                 <div class="inner">
                   <div class="row">
@@ -82,7 +86,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-sm-12 standardtarifs">
+              <h3 class="font-bold-italic text-white">Премиум
+                ТАРИФЫ</h3>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3">
               <div class="bisnessman">
                 <div class="inner">
                   <div class="row">
@@ -108,7 +116,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-md-12 col-sm-12">
               <div class="millioner">
                 <div class="inner">
                   <div class="row">
@@ -136,7 +144,7 @@
             </div>
           </div>
         </div>
-        <div class="col-2">
+        <div class="col-2 col-sm-2 col-md-2 col-lg-2 d-none d-lg-block">
           <div class="row links">
             <ul class="ml-auto mr-2 mt-5 navbar-nav">
               <li class="nav-item active">
@@ -158,11 +166,11 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-1"></div>
-        <div class="col-2 mb-2 pt-5 pr-5 pl-5">
-          <div class="row tarifs">
-            <h5>СТАНДАРТНЫЕ
+        <div class="col-2 ">
+          <div class="row tarifs d-lg-flex d-none">
+            <h5 class="text-white">СТАНДАРТНЫЕ
               ТАРИФЫ</h5>
           </div>
         </div>
@@ -171,14 +179,24 @@
             <a class="pb-1" (click)="scroll('about')">
               <img src="../../assets/images/MouseDown.png" alt="">
             </a>
+          </div>
         </div>
+        <div class="col-3 d-lg-none d-flex justify-content-end align-items-center">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a><img src="../../assets/images/facebook.png" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a><img src="../../assets/images/insta.png" alt=""></a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div *ngIf="isMobile" id="tarif" #tarif class="fluid-container bg mobi-bg pt-5">
+<div *ngIf="false" id="tarif" #tarif class="fluid-container bg mobi-bg pt-5">
   <div class="row">
     <div class="col-12">
       <div class="row uspehMobi mb-5 mt-5">
