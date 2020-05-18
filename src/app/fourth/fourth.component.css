@@ -4,7 +4,7 @@
   background-size: 100% 100%;
 }
 .creature h1{
-  width: 55%;
+  font-size: 1.5rem;
   text-align: left;
   color: white;
 }
@@ -109,7 +109,6 @@
   font-family: "CodecPro-Light";
 }
 .extraLightItalic {
-
   font-family: "CodecPro-ExtraLightItalic";
 }
 .BoldItalic {
@@ -198,5 +197,8 @@
   }
   .first p {
     font-size: small;
+  }
+  .h-lg-100 {
+    height: 100%;
   }
 }
