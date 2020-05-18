@@ -1,13 +1,13 @@
-<div *ngIf="!isMobile" class="fluid-container desktop-bg" id="about">
+<div class="fluid-container desktop-bg" id="about">
   <div class="row" style="margin-right:0 ">
     <div class="col-12">
       <div class="row">
-        <div class="col-10">
-          <div class="row creature ml-5 mt-5">
+        <div class="col-12 col-md-12 col-lg-10">
+          <div class="row creature ml-lg-5 mt-lg-5">
             <h1 class="font-bold-italic">СОЗДАТЕЛИ МОБИЛЬНОГО ПРИЛОЖЕНИЯ</h1>
           </div>
         </div>
-        <div class="col-2">
+        <div class="col-2 d-none d-md-none d-lg-block">
           <div class="row navigation">
             <ul class="ml-auto mr-5 mt-2 navbar-nav">
               <li class="nav-item active">
@@ -26,7 +26,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row d-none d-md-none d-lg-flex">
         <div class="col-1"></div>
         <div class="col-10">
           <div class="row">
@@ -126,7 +126,7 @@
           </div>
         </div>
       </div>
-      <div class="row too mt-5">
+      <div class="row too mt-5 d-none d-md-none d-lg-flex">
         <div class="col-3">
           <p>
             ТОО "Миллион Факториал"
@@ -148,18 +148,7 @@
       </div>
     </div>
   </div>
-</div>
-
-<div *ngIf="isMobile" id="about" #about class=" pt-5 fluid-container bg mobi-bg">
-  <div class="row">
-    <div class="col-12 color-white BoldItalic d-flex justify-content-center">
-      <div class="row w-80">
-        <h3>Создатели мобильного
-          приложения</h3>
-      </div>
-    </div>
-  </div>
-  <div class="row">
+  <div class="row d-flex d-md-flex d-lg-none">
     <div class="col-1"></div>
     <div class="col-5 creaturerMobi">
       <div class="creaturer ">
@@ -188,7 +177,7 @@
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row d-flex d-md-flex d-lg-none">
     <div class="col-1"></div>
     <div class="col-10 aboutCreaturerr">
       <div class="row extraLightItalic color-white">
@@ -204,7 +193,7 @@
     </div>
     <div class="col-2"></div>
   </div>
-  <div class="row">
+  <div class="row d-flex d-md-flex d-lg-none">
     <div class="col-1"></div>
     <div class="col-5 aboutCreaturer">
       <div class="row BoldItalic color-white">
@@ -244,7 +233,7 @@
     </div>
 
   </div>
-  <div class="row">
+  <div class="row d-flex d-md-flex d-lg-none">
     <div class="col-3"></div>
     <div class="col-6 info">
       <div class="row text-center color-white">
@@ -258,7 +247,7 @@
     <div class="col-3"></div>
   </div>
 
-  <div class="row links">
+  <div class="row links d-flex d-md-flex d-lg-none">
       <ul class="ml-auto mr-3 mb-2 navbar-nav">
         <li class="nav-item">
           <a><img src="../../assets/images/facebook.png" alt=""></a>

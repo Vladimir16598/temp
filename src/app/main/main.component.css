@@ -2,8 +2,8 @@
   filter: brightness(0) invert(1);
 }
 
-.first-desktop-bg {
-  background-image: url('../../assets/images/v1.png');
+.desktop-bg {
+  background-image: url('../../assets/images/V1mobi.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -513,4 +513,20 @@ filter: brightness(0) invert(1);
     position: absolute;
     /* bottom: 0%; */
     left: 0%;
+}
+
+@media (min-width: 992px) {
+  .desktop-bg {
+    background-image: url('../../assets/images/v1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .desktop-bg {
+    background-image: url('../../assets/images/v1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
 }

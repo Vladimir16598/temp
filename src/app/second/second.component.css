@@ -1,19 +1,9 @@
 .desktop-bg {
-  background-image: url('../../assets/images/app.png');
+  background-image: url('../../assets/images/v2.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.mobile {
-    background-image: url('../../assets/images/mob.png');
-    bottom: 0%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 #SecondCarousel {
   margin-top: 45%;
 }
@@ -76,14 +66,14 @@
 }
 
 
-.mobileMobile #carousel {
+.mobile #carousel {
   margin-top: 5%;
 }
 .font-color-white{
 
   color: #ffffff;
 }
-.mobileMobile {
+.mobile {
     background-image: url('../../assets/images/mobMobile.png');
     bottom: 0%;
     background-repeat: no-repeat;
@@ -110,4 +100,42 @@
 
 .h-80 {
   height: 80%;
+}
+
+@media (min-width: 992px) {
+  .desktop-bg {
+    background-image: url('../../assets/images/app.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .mobile {
+    background-image: url('../../assets/images/mob.png');
+    bottom: 0%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .desktop-bg {
+    background-image: url('../../assets/images/app.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .mobile {
+    background-image: url('../../assets/images/mob.png');
+    bottom: 0%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
