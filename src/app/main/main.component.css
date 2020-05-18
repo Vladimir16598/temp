@@ -524,6 +524,9 @@ filter: brightness(0) invert(1);
 }
 
 @media (min-width: 1200px) {
+  .vh-lg-100 {
+    height: 100vh !important;
+  }
   .desktop-bg {
     background-image: url('../../assets/images/v1.png');
     background-repeat: no-repeat;

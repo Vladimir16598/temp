@@ -442,6 +442,9 @@ color: #FA8267;
 
 /* // Экстрабольшие девайсы (большие десктопы, >= 1200px) */
 @media (min-width: 1200px) {
+  .vh-lg-100 {
+    height: 100vh !important;
+  }
   .freelancer {
     border: white 1px solid;
       border-radius: 5px;
