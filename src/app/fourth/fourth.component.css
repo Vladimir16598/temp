@@ -118,6 +118,14 @@
   color: #ffffff;
 }
 
+.mobileHeaderText {
+  font-size: 1.3rem;
+}
+
+.mobileText {
+  font-size: 1.1rem;
+}
+
 .too p{
   margin: 0%;
   color: #ffffff;
