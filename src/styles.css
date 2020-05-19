@@ -32,3 +32,8 @@
   src: url("assets/CodecPro-News.eot");
   src: url("assets/CodecPro-News.woff") format("woff");
 }
+@font-face {
+	font-family: "CodecPro-HeavyItalic";
+	src: url("assets/CodecPro-HeavyItalic.eot");
+	src: url("assets/CodecPro-HeavyItalic.woff") format("woff");
+}
