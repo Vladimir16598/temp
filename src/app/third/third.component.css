@@ -20,7 +20,9 @@
   display: none;
 }
 
-
+.mr-10 {
+  margin-right: 10rem;
+}
 .links a{
   text-align: center;
   color: #FA8267;
