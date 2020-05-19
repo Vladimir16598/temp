@@ -14,9 +14,13 @@
 .font-bold-italic {
   font-family: "CodecPro-BoldItalic";
 }
+.codecProNews {
+  font-family: "CodecPro-News";
+}
 .links a{
   text-align: center;
   color: #FA8267;
+  padding: 0%;
 }
 .links img{
   padding: 5%;

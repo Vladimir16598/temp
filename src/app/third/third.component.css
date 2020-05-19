@@ -24,6 +24,7 @@
 .links a{
   text-align: center;
   color: #FA8267;
+  padding: 0%;
 }
 .links img{
   padding: 5%;
@@ -31,6 +32,11 @@
 .font-bold-italic {
   font-family: "CodecPro-BoldItalic";
 }
+
+.codecProNews {
+  font-family: "CodecPro-News";
+}
+
 .uspeh {
   justify-content: center;
 }
