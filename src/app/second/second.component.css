@@ -4,10 +4,23 @@
   background-size: 100% 100%;
 }
 
+.backk {
+  background-color: #FA8267;
+}
+
+.mobileHeaderText {
+  font-size: 5.5rem;
+}
+.mobileText-15 {
+  font-size: 1.5rem;
+}
 #SecondCarousel {
   margin-top: 45%;
   margin-bottom: 15%;
-  margin-right: 5%;
+}
+
+.w-70 {
+  width: 70%;
 }
 .carousel-item h5{
 
@@ -85,13 +98,16 @@
   color: #ffffff;
 }
 .mobile {
+
     background-image: url('../../assets/images/mobMobile.png');
     bottom: 0%;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 120% 100%;
     position: relative;
     height: 100%;
     padding: 10%;
+    margin-right: 5%;
+    padding-right: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
