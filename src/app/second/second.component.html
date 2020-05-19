@@ -1,6 +1,6 @@
 <div id="appDesktop" #appDesktop class="fluid-container desktop-bg">
-  <div class="row " style="margin-right:0 ">
-    <div class="col-12 col-md-12 col-lg-4 p-lg-0">
+  <div class="row vh-100" style="margin-right:0 ">
+    <div class="col-12 col-md-12 col-lg-4 p-lg-0 p-0">
       <div class="mobile">
         <div id="SecondCarousel" class="carousel slide" data-ride="carousel">
           <!-- The slideshow -->
@@ -11,6 +11,7 @@
                 шести направлениям</h5>
               <p id="small font-codec-light">В рамках продвижения своего
                 мобильного приложения, предлагает всем новым подписчикам возможность выиграть множество призов: </p>
+                <button class="mt-5">КУПИТЬ</button>
             </div>
             <div class="carousel-item">
               <img src="../../assets/images/mopPhoto.png">
@@ -18,6 +19,7 @@
                 шести направлениям</h5>
               <p id="small font-codec-light">В рамках продвижения своего
                 мобильного приложения, предлагает всем новым подписчикам возможность выиграть множество призов: </p>
+                <button class="mt-5">КУПИТЬ</button>
             </div>
             <div class="carousel-item">
               <img src="../../assets/images/mopPhoto.png">
@@ -25,6 +27,7 @@
                 шести направлениям</h5>
               <p id="small font-codec-light">В рамках продвижения своего
                 мобильного приложения, предлагает всем новым подписчикам возможность выиграть множество призов: </p>
+                <button class="mt-5">КУПИТЬ</button>
             </div>
           </div>
           <!-- Left and right controls -->
@@ -37,14 +40,14 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-7 d-none d-md-none d-lg-block">
+    <div class="col-lg-8 d-none d-md-none d-lg-block p-0">
       <div class="row navigation">
         <ul class="ml-auto mr-5 mt-5 navbar-nav">
           <li class="nav-item active">
             <a class="nav-link font-bold-italic" (click)="scroll('main')">Главная<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-bold-italic" (click)="scroll('appDesktop')">Приложение</a>
+            <a class="nav-link font-bold-italic" [class.active]="isOnSecond" (click)="scroll('appDesktop')">Приложение</a>
           </li>
           <li class="nav-item">
             <a class="nav-link font-bold-italic" (click)="scroll('tarifDesktop')">Тарифы</a>
@@ -62,28 +65,25 @@
             </a>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="col-1 d-none d-md-none d-lg-flex align-items-center justify-content-end pl-0">
-      <div class="row">
-        <div class="links">
-          <ul class="ml-auto mr-2 mt-5 navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link font-bold-italic" href="#">KZ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link font-bold-italic" href="#">RU</a>
-            </li>
-            <li class="nav-item">
-              <a><img src="../../assets/images/youtube.png" alt=""></a>
-            </li>
-            <li class="nav-item">
-              <a><img src="../../assets/images/facebook.png" alt=""></a>
-            </li>
-            <li class="nav-item">
-              <a><img src="../../assets/images/insta.png" alt=""></a>
-            </li>
-          </ul>
+        <div class="col-6">
+          <div class="row d-flex justify-content-end align-items-end">
+            <div class="links">
+              <ul class="ml-auto mr-2 mt-5 navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link font-bold-italic" href="#">KZ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-bold-italic" href="#">RU</a>
+                </li>
+                <li class="nav-item">
+                  <a><img src="../../assets/images/facebook.png" alt=""></a>
+                </li>
+                <li class="nav-item">
+                  <a><img src="../../assets/images/insta.png" alt=""></a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>

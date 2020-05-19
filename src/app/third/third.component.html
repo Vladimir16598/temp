@@ -1,7 +1,7 @@
 <div *ngIf="true" #tarifDesktop class="fluid-container third-desktop-bg" id="tarifDesktop">
-  <div class="row">
-    <div class="col-12 p-0">
-      <div class="row" style="margin-right:0 ">
+  <div class="row vh-lg-100">
+    <div class="col-12 p-0 h-100">
+      <div class="row header" style="margin-right:0 ">
         <div class="col-10">
           <div class="row uspeh ml-5 mt-5">
             <img src="../../assets/images/ucpeh.png">
@@ -17,7 +17,7 @@
                 <a class="nav-link font-bold-italic" (click)="scroll('appDesktop')">Приложение</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link font-bold-italic" (click)="scroll('tarifDesktop')">Тарифы</a>
+                <a class="nav-link font-bold-italic" [class.active]="isOnThird" (click)="scroll('tarifDesktop')">Тарифы</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link font-bold-italic" (click)="scroll('about')">О нас</a>
@@ -26,31 +26,33 @@
           </div>
         </div>
       </div>
-      <div class="row mt-4">
+      <div class="row main">
         <div class="col-2 col-sm-2 col-md-2 col-lg-1"></div>
-        <div class="col-8 col-sm-8 col-md-8 col-lg-9">
+        <div class="col-8 col-sm-8 col-md-8 col-lg-9 h-100">
           <div class="row cards">
-            <div class="col-lg-3 col-md-12 col-sm-12">
-              <div class="freelancer">
-                <div class="inner">
-                  <div class="row">
-                    <div class="col-12">
-                      <h4 class="mt-3">Фрилансер</h4>
+            <div class="col-lg-3 col-md-12 col-sm-12 h-100">
+              <div class="row">
+                <div class="freelancer">
+                  <div class="inner">
+                    <div class="row">
+                      <div class="col-12">
+                        <h4 class="mt-3">Фрилансер</h4>
+                      </div>
                     </div>
-                  </div>
-                  <div class="row">
-                    <div class="leaf m-auto">
-                      <img class="" src="../../assets/images/leaf.png" alt="">
+                    <div class="row">
+                      <div class="leaf m-auto">
+                        <img class="" src="../../assets/images/leaf.png" alt="">
+                      </div>
                     </div>
-                  </div>
-                  <div class="row justify-content-center">
-                    <div class="col-10">
-                     <p>Катарсис, конечно, творит дуализм, однако Зигварт считал критер</p>
+                    <div class="row justify-content-center">
+                      <div class="col-10">
+                       <p>Катарсис, конечно, творит дуализм, однако Зигварт считал критер</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="mb-5 row justify-content-center buy">
-                    <div class="col-8 p-0 d-flex justify-content-center">
-                     <button class="w-100">Купить</button>
+                    <div class="mb-5 row justify-content-center buy">
+                      <div class="col-8 p-0 d-flex justify-content-center">
+                       <button class="w-100">Купить</button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -64,27 +66,32 @@
               <h3 class="font-bold-italic text-white">СТАНДАРТНЫЕ
                 ТАРИФЫ</h3>
             </div>
-            <div class="col-lg-3 col-md-12 col-sm-12">
-              <div class="recruter">
-                <div class="inner">
-                  <div class="row">
-                    <div class="col-12">
-                      <h4 class="mt-3">Предприниматель</h4>
+            <div class="col-lg-3 col-md-12 col-sm-12 h-100">
+              <div class="row m-lg-5">
+
+              </div>
+              <div class="row">
+                <div class="recruter">
+                  <div class="inner h-100">
+                    <div class="row recruterHeader mb-3">
+                      <div class="col-12 d-lg-flex d-md-flex jcc">
+                        <h4 class="mt-3">Предприниматель</h4>
+                      </div>
                     </div>
-                  </div>
-                  <div class="row">
-                    <div class="leaf m-auto">
-                      <img class="" src="../../assets/images/recruter.png" alt="">
+                    <div class="row h-10 mb-5">
+                      <div class="leaf m-auto">
+                        <img class="" src="../../assets/images/recruter.png" alt="">
+                      </div>
                     </div>
-                  </div>
-                  <div class="row justify-content-center">
-                    <div class="col-10">
-                     <p>Катарсис, конечно, творит дуализм, однако Зигварт считал критер</p>
+                    <div class="row h-30 mb-5 justify-content-center">
+                      <div class="col-10">
+                       <p>Катарсис, конечно, творит дуализм, однако Зигварт считал критер</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="mb-5 row justify-content-center buy">
-                    <div class="col-8 p-0 d-flex justify-content-center">
-                     <button class="w-100">Купить</button>
+                    <div class="mb-1 h-10 row justify-content-center buy">
+                      <div class="col-8 p-0 d-flex justify-content-center">
+                       <button class="w-100">Купить</button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -94,27 +101,29 @@
               <h3 class="font-bold-italic text-white">Премиум
                 ТАРИФЫ</h3>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-3">
-              <div class="bisnessman">
-                <div class="inner">
-                  <div class="row">
-                    <div class="col-12">
-                      <h4 class="mt-3">Бизнесмен</h4>
+            <div class="col-sm-12 col-md-12 col-lg-3 h-100">
+              <div class="row">
+                <div class="bisnessman">
+                  <div class="inner">
+                    <div class="row">
+                      <div class="col-12">
+                        <h4 class="mt-3">Бизнесмен</h4>
+                      </div>
                     </div>
-                  </div>
-                  <div class="row">
-                    <div class="leaf m-auto">
-                      <img class="" src="../../assets/images/global.png" alt="">
+                    <div class="row">
+                      <div class="leaf m-auto">
+                        <img class="" src="../../assets/images/global.png" alt="">
+                      </div>
                     </div>
-                  </div>
-                  <div class="row justify-content-center">
-                    <div class="col-10">
-                     <p>Катарсис, конечно, творит дуализм, однако Зигварт считал критер</p>
+                    <div class="row justify-content-center">
+                      <div class="col-10">
+                       <p>Катарсис, конечно, творит дуализм, однако Зигварт считал критер</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="mb-5 row justify-content-center buy">
-                    <div class="col-8 d-flex justify-content-center p-0">
-                     <button class="w-100">Купить</button>
+                    <div class="mb-5 row justify-content-center buy">
+                      <div class="col-8 d-flex justify-content-center p-0">
+                       <button class="w-100">Купить</button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -125,30 +134,32 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="col-lg-3 col-md-12 col-sm-12 h-100">
               <div class="row position-relative h-lg-30 tarifs d-lg-flex d-none justify-content-center">
                 <h4 class="text-white font-bold-italic w-50">ПРЕМИУМ ТАРИФЫ</h4>
                 </div>
-              <div class="millioner">
-                <div class="inner">
-                  <div class="row">
-                    <div class="col-12">
-                      <h4 class="mt-3">Миллионер</h4>
+              <div class="row">
+                <div class="millioner">
+                  <div class="inner">
+                    <div class="row">
+                      <div class="col-12">
+                        <h4 class="mt-3">Миллионер</h4>
+                      </div>
                     </div>
-                  </div>
-                  <div class="row">
-                    <div class="leaf m-auto">
-                      <img class="" src="../../assets/images/global.png" alt="">
+                    <div class="row">
+                      <div class="leaf m-auto">
+                        <img class="" src="../../assets/images/global.png" alt="">
+                      </div>
                     </div>
-                  </div>
-                  <div class="row justify-content-center">
-                    <div class="col-10">
-                     <p>Катарсис, конечно, творит дуализм, однако Зигварт считал критер</p>
+                    <div class="row justify-content-center">
+                      <div class="col-10">
+                       <p>Катарсис, конечно, творит дуализм, однако Зигварт считал критер</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="mb-5 row justify-content-center buy">
-                    <div class="col-8 p-0 d-flex justify-content-center">
-                     <button class="w-100">Купить</button>
+                    <div class="mb-5 row justify-content-center buy">
+                      <div class="col-8 p-0 d-flex justify-content-center">
+                       <button class="w-100">Купить</button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -162,7 +173,7 @@
           </div>
         </div>
       </div>
-      <div class="row mt-5">
+      <div class="row footer">
         <div class="col-1"></div>
         <div class="col-2 ">
 

@@ -9,7 +9,12 @@
   margin: 0%;
 }
 
-
+.h-10 {
+  height: 10%;
+}
+.h-30 {
+  height: 30%;
+}
 
 .tarifs {
   display: none;
@@ -33,11 +38,15 @@
   width: 100%;
 }
 
+.navigation a.active {
+  background: rgb(255,110,77);
+  background: linear-gradient(90deg, rgba(255,110,77,1) 0%, rgba(16,15,15,0) 100%);
+}
+
 .freelancer {
   border: white 1px solid;
   border-radius: 5px;
   margin-left: 5%;
-  height: 100%;
   position: relative;
 }
 
@@ -78,7 +87,6 @@ color: #FA8267;
   border: white 1px solid;
     border-radius: 5px;
     margin-left: 5%;
-    height: 100%;
     position: relative;
     padding-top: 1%;
 }
@@ -92,12 +100,11 @@ color: #FA8267;
 }
 .recruter .inner h4{
     background-color: #FA8267;
-    position: relative;
-    right: 16%;
-    width: 133%;
+    position: absolute;
+    right: -15%;
+    width: 123%;
     font-family: "CodecPro-BoldItalic";
     text-align: center;
-    padding-right: 10px;
     color: white;
     border: white 1px solid;
 }
@@ -122,7 +129,6 @@ color: #FA8267;
   border: white 1px solid;
     border-radius: 5px;
     margin-left: 5%;
-    height: 100%;
     position: relative;
     padding-top: 1%;
 }
@@ -167,7 +173,6 @@ color: #FA8267;
   border: white 1px solid;
     border-radius: 5px;
     margin-left: 5%;
-    height: 100%;
     position: relative;
     padding-top: 1%;
 }
@@ -222,6 +227,11 @@ color: #FA8267;
   color: #ffffff;
 }
 
+
+.recruterHeader {
+  height: 10%;
+}
+
 .cards .col-sm-12 {
   margin-top: 3rem !important;
 }
@@ -234,216 +244,6 @@ color: #FA8267;
 
 /* // Большие девайсы (десктопы, >= 992px) */
 @media (min-width: 992px) {
-  .freelancer {
-    border: white 1px solid;
-      border-radius: 5px;
-      margin-left: 5%;
-      height: 70%;
-      position: relative;
-      left: -21%;
-  }
-
-  .freelancer .inner .col-12{
-    padding-right: 0%;
-  }
-  .freelancer .inner h4{
-      background-color: white;
-      position: relative;
-      right: 33%;
-      width: 133%;
-      font-family: "CodecPro-BoldItalic";
-      text-align: right;
-      padding-right: 10px;
-      color: #FA8267;
-  }
-  .freelancer .inner p{
-    color: white;
-    font-family: "CodecPro-Light";
-  }
-  .freelancer .inner {
-    border: white 1px solid;
-    border-radius: 5px;
-    position: relative;
-    right: 5%;
-    bottom: -5%;
-    height: 100%;
-  }
-  .leaf img {
-    margin: 22px;
-  }
-
-  .freelancer .buy button{
-    background-color: white;
-    border: 0;
-    font-family: "CodecPro-BoldItalic";
-    color: #FA8267;
-  }
-
-  .recruter {
-    border: white 1px solid;
-      border-radius: 5px;
-      margin-left: 5%;
-      height: 70%;
-      position: relative;
-      padding-top: 1%;
-      bottom: -20%;
-      left: 10%;
-  }
-
-  .recruter .inner .col-12{
-    padding-right: 0%;
-  }
-  .recruter .inner p{
-    color: #FA8267;
-    font-family: "CodecPro-BoldItalic";
-  }
-  .recruter .inner h4{
-      background-color: #FA8267;
-      position: relative;
-      right: 16%;
-      width: 133%;
-      font-family: "CodecPro-BoldItalic";
-      text-align: center;
-      padding-right: 10px;
-      color: white;
-      border: white 1px solid;
-  }
-  .recruter .inner {
-    background-color: white;
-    border: white 1px solid;
-    border-radius: 5px;
-    position: relative;
-    right: 10%;
-    bottom: -5%;
-  }
-
-  .recruter .buy button{
-    background-color: #FA8267;
-    border: 0;
-    font-family: "CodecPro-BoldItalic";
-    color: white;
-  }
-
-  .bisnessman {
-    border: white 1px solid;
-      border-radius: 5px;
-      margin-left: 5%;
-      height: 70%;
-      position: relative;
-      padding-top: 1%;
-      left: 30%;
-  }
-
-  .bisnessman .inner .col-12{
-    padding-right: 0%;
-  }
-  .bisnessman .inner p{
-    color: white;
-    font-family: "CodecPro-Light";
-  }
-  .bisnessman .inner h4{
-      background-color: white;
-      position: relative;
-      left: 0%;
-      width: 124%;
-      font-family: "CodecPro-BoldItalic";
-      text-align: center;
-      padding-right: 10px;
-      color: #FA8267;
-  }
-  .bisnessman .inner .col-12{
-    padding: 0%;
-  }
-  .bisnessman .inner {
-    padding-top: 5%;
-    border: white 1px solid;
-    border-radius: 5px;
-    position: relative;
-    right: -5%;
-    bottom: 5%;
-  }
-
-  .bisnessman .buy button{
-    background-color: white;
-    border: 0;
-    font-family: "CodecPro-BoldItalic";
-    color: #FA8267;
-  }
-
-  .millioner {
-    border: white 1px solid;
-      border-radius: 5px;
-      margin-left: 5%;
-      height: 70%;
-      position: relative;
-      padding-top: 1%;
-      left: 60%;
-  }
-
-  .millioner .inner .col-12{
-    padding-right: 0%;
-  }
-  .millioner .inner p{
-    color: white;
-    font-family: "CodecPro-Light";
-  }
-  .millioner .inner h4{
-      background-color: white;
-      position: relative;
-      left: 0%;
-      width: 124%;
-      font-family: "CodecPro-BoldItalic";
-      text-align: left;
-      padding-left: 10px;
-      color: #FA8267;
-  }
-  .millioner .inner .col-12{
-    padding: 0%;
-  }
-  .millioner .inner {
-    border: white 1px solid;
-    border-radius: 5px;
-    position: relative;
-    right: -5%;
-    bottom: 5%;
-    padding-top: 5%;
-  }
-
-  .millioner .buy button{
-    background-color: white;
-    border: 0;
-    font-family: "CodecPro-BoldItalic";
-    color: #FA8267;
-  }
-
-  .third-desktop-bg {
-    background-image: url('../../assets/images/Tarif (2).png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /* height: 635px; */
-  }
-  .uspeh {
-    justify-content: center;
-  }
-  .uspeh img{
-    width: 50%;
-  }
-  .navigation a{
-    padding: 0%;
-    color: #ffffff;
-  }
-  .standardtarifs
-  {
-    display: none;
-  }
-
-  .tarifs h5{
-    font-family: "CodecPro-BoldItalic";
-  }
- }
-
-/* // Экстрабольшие девайсы (большие десктопы, >= 1200px) */
-@media (min-width: 1200px) {
   .vh-lg-100 {
     height: 100vh !important;
   }
@@ -451,7 +251,6 @@ color: #FA8267;
     border: white 1px solid;
       border-radius: 5px;
       margin-left: 5%;
-      height: 70%;
       position: relative;
       left: -21%;
   }
@@ -496,11 +295,10 @@ color: #FA8267;
     border: white 1px solid;
       border-radius: 5px;
       margin-left: 5%;
-      height: 70%;
       position: relative;
       padding-top: 1%;
       bottom: -20%;
-      left: 10%;
+      left: 2%;
   }
 
   .recruter .inner .col-12{
@@ -512,12 +310,11 @@ color: #FA8267;
   }
   .recruter .inner h4{
       background-color: #FA8267;
-      position: relative;
-      right: 16%;
+      position: absolute;
+      /* right: 16%; */
       width: 133%;
       font-family: "CodecPro-BoldItalic";
       text-align: center;
-      padding-right: 10px;
       color: white;
       border: white 1px solid;
   }
@@ -542,7 +339,6 @@ color: #FA8267;
     border: white 1px solid;
       border-radius: 5px;
       margin-left: 5%;
-      height: 70%;
       position: relative;
       padding-top: 1%;
       left: 30%;
@@ -590,7 +386,6 @@ color: #FA8267;
     border: white 1px solid;
       border-radius: 5px;
       margin-left: 5%;
-      height: 70%;
       position: relative;
       padding-top: 1%;
       left: 60%;
@@ -655,5 +450,254 @@ color: #FA8267;
 
   .tarifs h5{
     font-family: "CodecPro-BoldItalic";
+  }
+  .header {
+    height: 20%;
+  }
+  .main {
+    height: 75%;
+  }
+  .footer {
+    height: 5%;
+  }
+  .vh-lg-100 {
+    height: 100vh;
+  }
+
+  .recruterHeader {
+    height: 10%;
+  }
+  .jcc {
+    justify-content: center;
+  }
+ }
+
+/* // Экстрабольшие девайсы (большие десктопы, >= 1200px) */
+@media (min-width: 1200px) {
+  .jcc {
+    justify-content: center;
+  }
+  .vh-lg-100 {
+    height: 100vh !important;
+  }
+  .freelancer {
+    border: white 1px solid;
+      border-radius: 5px;
+      margin-left: 5%;
+      position: relative;
+      left: -21%;
+  }
+
+  .freelancer .inner .col-12{
+    padding-right: 0%;
+  }
+  .freelancer .inner h4{
+      background-color: white;
+      position: relative;
+      right: 33%;
+      width: 133%;
+      font-family: "CodecPro-BoldItalic";
+      text-align: right;
+      padding-right: 10px;
+      color: #FA8267;
+  }
+  .freelancer .inner p{
+    color: white;
+    font-family: "CodecPro-Light";
+  }
+  .freelancer .inner {
+    border: white 1px solid;
+    border-radius: 5px;
+    position: relative;
+    right: 5%;
+    bottom: -5%;
+    height: 100%;
+  }
+  .leaf img {
+    margin: 22px;
+  }
+
+  .freelancer .buy button{
+    background-color: white;
+    border: 0;
+    font-family: "CodecPro-BoldItalic";
+    color: #FA8267;
+  }
+
+  .recruter {
+    border: white 1px solid;
+      border-radius: 5px;
+      margin-left: 5%;
+      position: relative;
+      padding-top: 1%;
+      bottom: -20%;
+      left: 2%;
+  }
+
+  .recruter .inner .col-12{
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  .recruter .inner p{
+    color: #FA8267;
+    font-family: "CodecPro-BoldItalic";
+  }
+  .recruter .inner h4{
+      background-color: #FA8267;
+      position: absolute;
+      /* right: 16%; */
+      width: 133%;
+      font-family: "CodecPro-BoldItalic";
+      text-align: center;
+      color: white;
+      border: white 1px solid;
+  }
+  .recruter .inner {
+    background-color: white;
+    border: white 1px solid;
+    border-radius: 5px;
+    position: relative;
+    right: -5%;
+    bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .recruter .buy button{
+    background-color: #FA8267;
+    border: 0;
+    font-family: "CodecPro-BoldItalic";
+    color: white;
+  }
+
+  .bisnessman {
+    border: white 1px solid;
+      border-radius: 5px;
+      margin-left: 5%;
+      position: relative;
+      padding-top: 1%;
+      left: 30%;
+  }
+
+  .bisnessman .inner .col-12{
+    padding-right: 0%;
+  }
+  .bisnessman .inner p{
+    color: white;
+    font-family: "CodecPro-Light";
+  }
+  .bisnessman .inner h4{
+      background-color: white;
+      position: relative;
+      left: 0%;
+      width: 124%;
+      font-family: "CodecPro-BoldItalic";
+      text-align: left;
+      padding-left: 10px;
+  }
+  .bisnessman .inner .col-12{
+    padding: 0%;
+  }
+  .bisnessman .inner {
+    padding-top: 5%;
+    border: white 1px solid;
+    border-radius: 5px;
+    position: relative;
+    right: -5%;
+    bottom: 5%;
+  }
+
+  .bisnessman .buy button{
+    background-color: white;
+    border: 0;
+    font-family: "CodecPro-BoldItalic";
+    color: #FA8267;
+  }
+  .h-lg-30 {
+    height: 20%;
+    left: 60%;
+  }
+  .millioner {
+    border: white 1px solid;
+      border-radius: 5px;
+      margin-left: 5%;
+      position: relative;
+      padding-top: 1%;
+      left: 60%;
+  }
+
+  .millioner .inner .col-12{
+    padding-right: 0%;
+  }
+  .millioner .inner p{
+    color: white;
+    font-family: "CodecPro-Light";
+  }
+  .millioner .inner h4{
+      background-color: white;
+      position: relative;
+      left: 0%;
+      width: 124%;
+      font-family: "CodecPro-BoldItalic";
+      text-align: left;
+      padding-left: 10px;
+      color: #FA8267;
+  }
+  .millioner .inner .col-12{
+    padding: 0%;
+  }
+  .millioner .inner {
+    border: white 1px solid;
+    border-radius: 5px;
+    position: relative;
+    right: -5%;
+    bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .millioner .buy button{
+    background-color: white;
+    border: 0;
+    font-family: "CodecPro-BoldItalic";
+    color: #FA8267;
+  }
+
+  .third-desktop-bg {
+    background-image: url('../../assets/images/Tarif.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* height: 635px; */
+  }
+  .uspeh {
+    justify-content: center;
+  }
+  .uspeh img{
+    width: 50%;
+  }
+  .navigation a{
+    padding: 0%;
+    color: #ffffff;
+  }
+  .standardtarifs
+  {
+    display: none;
+  }
+
+  .tarifs h5{
+    font-family: "CodecPro-BoldItalic";
+  }
+  .header {
+    height: 20%;
+  }
+  .main {
+    height: 75%;
+  }
+  .footer {
+    height: 5%;
+  }
+  .vh-lg-100 {
+    height: 100vh;
+  }
+  .recruterHeader {
+    height: 10%;
   }
  }

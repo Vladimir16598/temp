@@ -18,6 +18,13 @@
   font-family: "CodecPro-NewsItalic";
   color: #ffffff;
 }
+.carousel-item button{
+  background-color: white;
+  border: 0;
+  font-family: "CodecPro-News";
+  color: #FA8267;
+  width: 50%;
+}
 .carousel-item img{
   width: 50%;
 }
@@ -46,8 +53,9 @@
 .font-bold-italic {
   font-family: "CodecPro-BoldItalic";
 }
-.navigation {
-
+.navigation li a.active{
+  background: rgb(255,110,77);
+  background: linear-gradient(90deg, rgba(255,110,77,1) 0%, rgba(16,15,15,0) 100%);
 }
 .navigation a{
   padding: 0%;
