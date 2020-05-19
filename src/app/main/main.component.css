@@ -257,6 +257,9 @@ color: white;
     filter: brightness(0) invert(1);
   height: 60%;
 }
+#right_menu a{
+  padding: 0%;
+}
 #right_menu a.active{
     background: rgb(255,110,77);
     background: linear-gradient(90deg, rgba(255,110,77,1) 0%, rgba(16,15,15,0) 100%);
@@ -380,6 +383,9 @@ height: 46px;
 z-index: 36;
 }
 
+#links a, #links img{
+  margin-bottom: 5px;
+}
 #links {
 position: relative;
 z-index: 36;
