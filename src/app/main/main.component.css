@@ -268,7 +268,7 @@ color: white;
   z-index: 31;
   color: #ffffff;
    font-family: "CodecPro-BoldItalic";
-  font-size: 20px;
+  /* font-size: 20px; */
   /* font-weight: 400; */
   line-height: -2px;
   display: inline-grid;
