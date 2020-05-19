@@ -265,7 +265,6 @@ color: white;
     background: linear-gradient(90deg, rgba(255,110,77,1) 0%, rgba(16,15,15,0) 100%);
 }
 #right_menu {
-    left: 10%;
   /* left: 1762px; */
   position: relative;
   z-index: 31;
@@ -370,7 +369,7 @@ height: 36px;
 z-index: 37;
 }
 #Rectangle10 img {
-width: 110%;
+width: 105%;
 height: 110%;
 }
 #Rectangle10
