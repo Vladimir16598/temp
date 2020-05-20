@@ -9,6 +9,7 @@
 }
 .navigation a{
   padding: 0%;
+  font-size: large;
   color: #ffffff;
 }
 .font-bold-italic {
@@ -93,7 +94,7 @@
     width: 100%;
     border: 1px white solid;
     height: 100%;
-    top: -5%;
+    top: -10%;
     position: absolute;
     left: -10%;
 }
@@ -117,6 +118,11 @@
 .CodecBold {
   font-family: "CodecPro-Bold";
 }
+
+.HeavyItalic {
+  font-family: "CodecPro-HeavyItalic";
+}
+
 .color-white {
   color: #ffffff;
 }
@@ -143,7 +149,7 @@
 
 .navigation a.active {
   background: rgb(255,110,77);
-  background: linear-gradient(90deg, rgba(255,110,77,1) 0%, rgba(16,15,15,0) 100%);
+  background: linear-gradient(15deg, rgba(255,110,77,1) 12%, rgba(16,15,15,0) 50%);
 }
 
 .w-80 {

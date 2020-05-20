@@ -3,9 +3,11 @@
 }
 
 .bg {
-  background-color: #FF8366;
+  background-color: #FA8266;
 }
-
+.smaller {
+  width: 25%;
+}
 .font-bold-italic {
   font-family: "CodecPro-BoldItalic";
 }
@@ -18,7 +20,7 @@
   flex-direction: column;
 }
 .navbar-dark {
-  background-color: #FF8366;
+  background-color: #FF8266;
 }
 .navbar {
   position: sticky;

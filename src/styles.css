@@ -1,9 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 /* Fonts */
 @font-face {
-	font-family: "CodecPro-BoldItalic";
+	font-family: "CodecPro-ExtraBoldItalic";
 	src: url("assets/CodecPro-ExtraBoldItalic.eot");
 	src: url("assets/CodecPro-ExtraBoldItalic.woff") format("woff");
+}
+
+@font-face {
+	font-family: "CodecPro-BoldItalic";
+	src: url("assets/CodecPro-BoldItalic.eot");
+	src: url("assets/CodecPro-BoldItalic.woff") format("woff");
 }
 
 @font-face {

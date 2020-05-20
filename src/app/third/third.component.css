@@ -4,7 +4,9 @@
   background-size: 100% 100%;
   /* height: 635px; */
 }
-
+.w-80 {
+  width: 80%;
+}
 .row {
   margin: 0%;
 }
@@ -16,6 +18,13 @@
 }
 .h-30 {
   height: 30%;
+}
+.h-80 {
+  height: 80%;
+}
+
+.h-90 {
+  height: 90%;
 }
 
 .tarifs {
@@ -52,7 +61,7 @@
 
 .navigation a.active {
   background: rgb(255,110,77);
-  background: linear-gradient(90deg, rgba(255,110,77,1) 0%, rgba(16,15,15,0) 100%);
+  background: linear-gradient(15deg, rgba(255,110,77,1) 12%, rgba(16,15,15,0) 50%);
 }
 
 .freelancer {
@@ -236,6 +245,7 @@ color: #FA8267;
 
 .navigation a{
   padding: 0%;
+  font-size: large;
   color: #ffffff;
 }
 
@@ -247,6 +257,11 @@ color: #FA8267;
 .cards .col-sm-12 {
   margin-top: 3rem !important;
 }
+
+.h-20{
+  height: 20%;
+}
+
 @media only screen and (min-width: 576px) {
 
 }
@@ -557,8 +572,8 @@ color: #FA8267;
   .recruter .inner h4{
       background-color: #FA8267;
       position: absolute;
-      /* right: 16%; */
-      width: 133%;
+      left: -10%;
+      width: 120%;
       font-family: "CodecPro-BoldItalic";
       text-align: center;
       color: white;
@@ -635,6 +650,17 @@ color: #FA8267;
       position: relative;
       padding-top: 1%;
       left: 60%;
+  }
+
+  .marginTop10 {
+    margin-top: 10%;
+  }
+  .bNeg10 {
+    bottom: -10%;
+  }
+
+  .bNeg20 {
+    bottom: -20%;
   }
 
   .millioner .inner .col-12{
@@ -715,4 +741,11 @@ color: #FA8267;
   .mt-7 {
     margin-top: 0rem;
   }
+  .l-60 {
+    left: 60%;
+  }
  }
+
+ .l-60 {
+  left: 60%;
+}

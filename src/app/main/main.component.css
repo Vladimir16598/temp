@@ -253,16 +253,17 @@ color: white;
   position: relative;
 }
 #logo img {
-  width: 60%;
+  /* width: 60%; */
     filter: brightness(0) invert(1);
   height: 60%;
 }
 #right_menu a{
   padding: 0%;
+  font-size: large;
 }
 #right_menu a.active{
     background: rgb(255,110,77);
-    background: linear-gradient(90deg, rgba(255,110,77,1) 0%, rgba(16,15,15,0) 100%);
+    background: linear-gradient(15deg, rgba(255,110,77,1) 12%, rgba(16,15,15,0) 50%);
 }
 #right_menu {
   /* left: 1762px; */
@@ -281,6 +282,11 @@ color: white;
  font-size: 5.5rem;
      line-height: 1;
 }
+
+.w-80 {
+  width: 80%;
+}
+
 #layer_20
 {
   position: relative;
@@ -373,7 +379,7 @@ height: 110%;
 }
 #Rectangle10
 {
-left: -5%;
+/* left: -5%; */
 top: -23%;
 position: absolute;
 width: 100%;

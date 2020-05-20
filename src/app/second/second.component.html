@@ -1,8 +1,9 @@
 <div id="appDesktop" #appDesktop class="fluid-container desktop-bg">
   <div class="row vh-lg-100" style="margin-right:0 ">
-    <div class="col-12 col-md-12 col-lg-5 p-lg-0 p-0 h-100">
-      <div class="mobile mb-5 mb-lg-0">
-        <div id="SecondCarousel" class="carousel slide pl-3 pr-3" data-ride="carousel">
+    <div class="col-1 d-lg-none"></div>
+    <div class="col-10 mt-5 mt-lg-0 col-md-12 col-lg-5 p-lg-0 p-0 h-100">
+      <div class="mobile mb-lg-0">
+        <div id="SecondCarousel" class="carousel slide pl-lg-3 pr-lg-3 pl-5 pr-5" data-ride="carousel">
           <!-- The slideshow -->
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -10,7 +11,7 @@
               <h5> Авторские курсы по
                 шести направлениям</h5>
               <p id="small font-codec-light">В рамках продвижения своего
-                мобильного приложения, предлагает всем новым подписчикам возможность выиграть множество призов: </p>
+                мобильного приложения, предлагает всем новым подписчикам возможность <span class="backWhite">выиграть множество призов: </span></p>
                 <button class="mt-5 d-lg-none d-inline">КУПИТЬ</button>
             </div>
             <div class="carousel-item">
@@ -18,7 +19,7 @@
               <h5> Авторские курсы по
                 шести направлениям</h5>
               <p id="small font-codec-light">В рамках продвижения своего
-                мобильного приложения, предлагает всем новым подписчикам возможность выиграть множество призов: </p>
+                мобильного приложения, предлагает всем новым подписчикам возможность <span class="backWhite">выиграть множество призов: </span></p>
                 <button class="mt-5  d-lg-none d-inline">КУПИТЬ</button>
             </div>
             <div class="carousel-item">
@@ -26,7 +27,7 @@
               <h5> Авторские курсы по
                 шести направлениям</h5>
               <p id="small font-codec-light">В рамках продвижения своего
-                мобильного приложения, предлагает всем новым подписчикам возможность выиграть множество призов: </p>
+                мобильного приложения, предлагает всем новым подписчикам возможность <span class="backWhite">выиграть множество призов: </span></p>
                 <button class="mt-5 d-lg-none d-inline">КУПИТЬ</button>
             </div>
           </div>
@@ -42,11 +43,12 @@
     </div>
     <div class="col-lg-7 d-none d-md-none d-lg-block p-0">
       <div class="row mt-5">
-        <div class="col-8 bonuses mt-3">
-          <h1 class="font-bold-italic font-color-white">Бонусы при  покупке приложения:</h1>
+        <div class="col-8 bonuses mt-3 p-0">
+          <!-- <h1 class="font-bold-italic font-color-white">Бонусы при  покупке приложения:</h1> -->
+          <img class="w-100 position-absolute left-minus3" src="../../assets/images/bonuses.png" alt="">
         </div>
         <div class="navigation ml-auto">
-          <ul class=" mr-5 navbar-nav">
+          <ul class="mr-5 navbar-nav">
             <li class="nav-item active">
               <a class="nav-link font-bold-italic" (click)="scroll('main')">Главная<span class="sr-only">(current)</span></a>
             </li>
@@ -63,9 +65,9 @@
         </div>
       </div>
       <div class="row d-none d-md-none d-lg-flex h-80">
-        <div class="col-12">
+        <div class="col-12 p-0">
           <div class="row h-10">
-            <p class="codeProNews font-color-white">
+            <p class="codeProNews font-color-white position-absolute left-minus2">
               Среди пользователей приложения будут разыграны следующие призы:
             </p>
           </div>
@@ -73,7 +75,7 @@
             <div class="col-6">
               <div class="row h-100 ml-5 d-flex justify-content-start align-items-end">
                 <a class="pb-1 mb-5" (click)="scroll('tarifDesktop')">
-                  <img src="../../assets/images/MouseDown.png" alt="">
+                  <img class="w-80" src="../../assets/images/MouseDown.png" alt="">
                 </a>
               </div>
             </div>
@@ -110,7 +112,7 @@
     </div>
   </div>
   <div class="row d-lg-none d-flex">
-    <div class="col-12 text-center d-flex justify-content-center mt-5 mb-3">
+    <div class="col-12 text-center d-flex justify-content-center mt-5 mb-5">
       <p class="font-color-white mobileText-15 w-75 text-center">Среди пользователей приложения будут разыграны следующие призы:</p>
     </div>
   </div>
@@ -130,15 +132,15 @@
     </div>
   </div>
   <div class="row d-lg-none d-flex">
-    <div class="col-12 text-center">
-     <h1 class="font-color-white">Этапы
-      розыгрыша:</h1>
+    <div class="col-12 text-center d-flex justify-content-center">
+     <h4 class="font-color-white text-center w-50 heavyItalic">Этапы
+      розыгрыша:</h4>
     </div>
   </div>
-  <div class="row d-lg-none d-flex">
+  <div class="row d-lg-none d-flex mt-3">
     <div class="col-12 text-center">
-      <p class="font-color-white">1 этап: Розыгрыш iPhone 11 в течение 6 месяцев</p>
-      <p class="font-color-white">2 этап: Розыгрыш Camry 70, осень 2020</p>
+      <p class="font-color-white font-codec-light pp">1 этап: Розыгрыш iPhone 11 в течение 6 месяцев</p>
+      <p class="font-color-white font-codec-light pp">2 этап: Розыгрыш Camry 70, осень 2020</p>
     </div>
   </div>
   <div class="row d-flex d-lg-none">

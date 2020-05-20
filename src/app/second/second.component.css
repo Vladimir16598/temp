@@ -16,6 +16,10 @@
   margin-bottom: 15%;
 }
 
+.w-80 {
+  width: 80%;
+}
+
 .w-75 {
   width: 75%;
 }
@@ -28,7 +32,7 @@
   text-align: justify;
   margin: auto;
   margin-top: 5%;
-  width: 55%;
+  width: 70%;
   font-family: "CodecPro-NewsItalic";
   color: #ffffff;
 }
@@ -47,7 +51,7 @@
 }
 .carousel-item p {
   color: #ffffff;
-  width: 70%;
+  width: 90%;
   margin: auto;
   margin-top: 5%;
   line-height: normal;
@@ -61,6 +65,9 @@
 .carousel-control-prev, .carousel-control-next {
   width: 25%;
 }
+.pp {
+  font-size: x-small;
+}
 .font-codec-light {
   font-family: "CodecPro-Light";
 }
@@ -69,10 +76,17 @@
 }
 .navigation li a.active{
   background: rgb(255,110,77);
-  background: linear-gradient(90deg, rgba(255,110,77,1) 0%, rgba(16,15,15,0) 100%);
+  background: linear-gradient(15deg, rgba(255,110,77,1) 12%, rgba(16,15,15,0) 50%);
+}
+.left-minus3 {
+  left: -3%;
+}
+.left-minus2 {
+  left: -2%;
 }
 .navigation a{
   padding: 0%;
+  font-size: large;
   color: #ffffff;
 }
 .h-10 {
@@ -83,6 +97,10 @@
   height: 90%;
 }
 .heavyItalic {
+  font-family: "CodecPro-HeavyItalic";
+}
+
+.extralight {
   font-family: "CodecPro-HeavyItalic";
 }
 
@@ -111,14 +129,14 @@
 }
 .mobile {
 
-    background-image: url('../../assets/images/mobMobile.png');
+    background-image: url('../../assets/images/mobMobile2.png');
     bottom: 0%;
     background-repeat: no-repeat;
-    background-size: 120% 100%;
+    background-size: 100% 100%;
     position: relative;
     height: 100%;
-    padding: 10%;
-    margin-right: 5%;
+    /* padding: 10%; */
+    /* margin-right: 5%; */
     padding-right: 0%;
     display: flex;
     justify-content: center;
@@ -139,6 +157,10 @@
 
 .h-80 {
   height: 80%;
+}
+.backWhite {
+  background-color: #ffffff;
+  color: #FA8267;
 }
 
 @media (min-width: 992px) {
@@ -179,6 +201,44 @@
 }
 
 @media (min-width: 1200px) {
+
+  .mobile {
+
+    background-image: url('../../assets/images/mobMobile2.png');
+    bottom: 0%;
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    position: relative;
+    height: 100%;
+    padding: 10%;
+    margin-right: 5%;
+    padding-right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .carousel-item h5{
+
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: auto;
+    margin-top: 5%;
+    width: 58%;
+    font-family: "CodecPro-NewsItalic";
+    color: #ffffff;
+  }
+
+  .carousel-item p {
+    color: #ffffff;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    line-height: normal;
+    text-align: center;
+    font-size: 80%;
+  }
+
   .desktop-bg {
     background-image: url('../../assets/images/app.png');
     background-repeat: no-repeat;
