@@ -499,8 +499,38 @@ color: #FA8267;
   }
  }
 
+
+ @media (min-width: 992px) {
+
+    .main {
+      height: 65%;
+    }
+    .mt-7 {
+      margin-top: 2rem;
+    }
+    .h-unset {
+      height: unset !important;
+    }
+    .freelancer .inner p, .millioner .inner p, .bisnessman .inner p, .recruter .inner p {
+      font-size: .8rem;
+    }
+    .f-1rem {
+      font-size: 1rem;
+    }
+    .h-tablet-20 {
+      height: 20%;
+    }
+    .premiumTarifHeader {
+      padding-left: 0% !important;
+      margin-bottom: 0.5rem;
+    }
+  }
+
 /* // Экстрабольшие девайсы (большие десктопы, >= 1200px) */
 @media (min-width: 1200px) {
+  .f-1rem {
+    font-size: 1.5rem;
+  }
   .jcc {
     justify-content: center;
   }
@@ -722,6 +752,16 @@ color: #FA8267;
 
   .tarifs h5{
     font-family: "CodecPro-BoldItalic";
+  }
+  .h-10 {
+    height: 10% !important;
+  }
+  .h-90 {
+    height: 90% !important;
+  }
+  .premiumTarifHeader {
+    padding-left: 1.5rem !important;
+    margin-bottom: 0% !important;
   }
   .header {
     height: 20%;

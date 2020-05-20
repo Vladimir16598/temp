@@ -181,6 +181,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
   .carousel-control-prev {
     width: 25%;
@@ -193,16 +195,23 @@
     display: flex;
     justify-content: flex-end;
   }
-
+  .fzero8rem {
+    font-size: 0.8rem;
+  }
 
 #SecondCarousel {
   margin-top: 50%;
   margin-bottom: 15%;
-  margin-right: 5%;
+
 }
 }
 
 @media (min-width: 1200px) {
+
+
+  .fzero8rem {
+    font-size: 1rem;
+  }
 
   .mobile {
 
