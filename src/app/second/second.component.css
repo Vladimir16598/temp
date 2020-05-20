@@ -28,7 +28,7 @@
 }
 
 .carousel-item h5{
-
+  font-size: 0.8rem;
   text-align: center;
   margin: auto;
   margin-top: 5%;
@@ -55,7 +55,7 @@
   margin: auto;
   margin-top: 5%;
   line-height: normal;
-  text-align: justify;
+  text-align: center;
   font-size: 80%;
 }
 .carousel-control-prev span, .carousel-control-next span{
@@ -92,7 +92,9 @@
 .h-10 {
   height: 10%;
 }
-
+.h-20 {
+  height: 20%;
+}
 .h-90 {
   height: 90%;
 }
