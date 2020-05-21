@@ -503,6 +503,8 @@ color: #FA8267;
   }
   .h-unset {
     height: unset !important;
+  }.HeavyItalic {
+    font-family: "CodecPro-HeavyItalic";
   }
 
  @media (min-width: 992px) {
@@ -694,7 +696,7 @@ color: #FA8267;
     margin-top: 10%;
   }
   .bNeg10 {
-    bottom: -10%;
+    bottom: -5%;
   }
 
   .bNeg20 {
@@ -762,6 +764,9 @@ color: #FA8267;
   .tarifs h5{
     font-family: "CodecPro-BoldItalic";
   }
+
+
+
   .h-10 {
     height: 10% !important;
   }

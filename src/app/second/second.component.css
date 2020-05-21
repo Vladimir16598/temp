@@ -187,13 +187,13 @@
   .carousel-control-prev {
     width: 25%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
   }
 
   .carousel-control-next {
     width: 25%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
   }
   .fzero8rem {
     font-size: 0.8rem;
@@ -205,7 +205,13 @@
 
 }
 }
+.pl-6 {
+  padding-left: 3.5rem !important;
+}
 
+.pr-6 {
+  padding-right: 3.5rem !important;
+}
 @media (min-width: 1200px) {
 
 
@@ -269,13 +275,13 @@
   .carousel-control-prev {
     width: 25%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
   }
 
   .carousel-control-next {
     width: 25%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
   }
 
 
