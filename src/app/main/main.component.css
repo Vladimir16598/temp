@@ -572,6 +572,10 @@ filter: brightness(0) invert(1);
 }
 
 @media (min-width: 1200px) {
+  .col-custom-2 {
+    flex: 0 0 15%;
+    max-width: 15%;
+  }
   #kouch {
     width: 100%;
      height: 97px;
