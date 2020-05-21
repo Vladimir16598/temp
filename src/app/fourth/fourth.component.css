@@ -3,6 +3,11 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
+.jcc {
+  justify-content: center;
+}
+
 .creature h1{
   text-align: left;
   color: white;
@@ -201,9 +206,16 @@
   .mouse img{
     width: 50%;
   }
+  .jcc {
+    justify-content: start;
+  }
 }
 
 @media (min-width: 1200px) {
+
+  .jcc {
+    justify-content: start;
+  }
   .desktop-bg {
     background-image: url('../../assets/images/v4.png');
     background-repeat: no-repeat;
@@ -213,7 +225,7 @@
     height: 15%;
   }
   .footer {
-    height: 25%;
+    height: 24%;
     align-items: flex-end;
   }
   .main {
