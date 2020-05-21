@@ -255,7 +255,7 @@ color: #FA8267;
 }
 
 .cards .col-sm-12 {
-  margin-top: 3rem !important;
+  padding-top: 3rem !important;
 }
 
 .h-20{
@@ -498,7 +498,12 @@ color: #FA8267;
     justify-content: center;
   }
  }
-
+  .h-40 {
+    height: 40%;
+  }
+  .h-unset {
+    height: unset !important;
+  }
 
  @media (min-width: 992px) {
 
@@ -528,6 +533,9 @@ color: #FA8267;
 
 /* // Экстрабольшие девайсы (большие десктопы, >= 1200px) */
 @media (min-width: 1200px) {
+  .h-unset {
+    height: 100% !important;
+  }
   .f-1rem {
     font-size: 1.5rem;
   }
@@ -571,7 +579,7 @@ color: #FA8267;
     height: 100%;
   }
   .leaf img {
-    margin: 22px;
+    margin: 0;
   }
 
   .freelancer .buy button{
@@ -742,6 +750,7 @@ color: #FA8267;
     width: 50%;
   }
   .navigation a{
+    font-size: 1.3rem;
     padding: 0%;
     color: #ffffff;
   }

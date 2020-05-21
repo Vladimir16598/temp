@@ -213,6 +213,10 @@
 
 @media (min-width: 1200px) {
 
+  .navigation a {
+    font-size: 1.3rem;
+  }
+
   .jcc {
     justify-content: start;
   }
@@ -222,14 +226,14 @@
     background-size: 100% 100%;
   }
   .header {
-    height: 15%;
+    height: 20%;
   }
   .footer {
-    height: 24%;
+    height: 20%;
     align-items: flex-end;
   }
   .main {
-    height: 50%;
+    height: 60%;
   }
   .first p {
     font-size: small;
