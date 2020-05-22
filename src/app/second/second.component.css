@@ -198,6 +198,8 @@
  }
 
 @media (min-width: 992px) {
+
+
   .desktop-bg {
     background-image: url('../../assets/images/app.png');
     background-repeat: no-repeat;
@@ -244,6 +246,99 @@
   .col-2-custom {
     flex: 0 0 14.285713795918364548104940274885%;
     max-width: 14.285713795918364548104940274885%;
+  }
+
+  .col-70 {
+    max-width: 71.428572408163270903790119450229%;
+    flex: 0 0 71.428572408163270903790119450229%;
+  }
+
+  .fzero8rem {
+    font-size: 1rem;
+  }
+
+  .mobile {
+
+    background-image: url('../../assets/images/mobMobile2.png');
+    bottom: 0%;
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    position: relative;
+    height: 100%;
+    padding: 10%;
+    margin-right: 5%;
+    padding-right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 0;
+}
+
+  .carousel-item h5{
+
+    font-size: 1.1rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    width: 100%;
+    font-family: "CodecPro-NewsItalic";
+    color: #ffffff;
+  }
+
+  .carousel-item p {
+    color: #ffffff;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    line-height: normal;
+    text-align: center;
+    font-size: 100%;
+  }
+
+  .desktop-bg {
+    background-image: url('../../assets/images/app.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .mobile {
+    background-image: url('../../assets/images/mob.png');
+    bottom: 0%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel-control-prev {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel-control-next {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+
+
+#SecondCarousel {
+  margin-top: 50%;
+  margin-bottom: 15%;
+  margin-right: 10%;
+}
+.vh-lg-100 {
+  height: 100vh;
+}
+  .col-2-custom {
+    flex: 0 0 14.285713795918364548104940274885%;
+    max-width: 14.285713795918364548104940274885%;
+  }
+  .carousel-item img{
+    width: 70%;
   }
 }
 @media (min-width: 1200px) {
