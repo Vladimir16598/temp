@@ -28,11 +28,11 @@
 }
 
 .carousel-item h5{
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   text-align: center;
   margin: auto;
   margin-top: 5%;
-  width: 70%;
+  width: 80%;
   font-family: "CodecPro-NewsItalic";
   color: #ffffff;
 }
@@ -51,7 +51,7 @@
 }
 .carousel-item p {
   color: #ffffff;
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 5%;
   line-height: normal;
@@ -250,7 +250,7 @@
 
   .carousel-item h5{
 
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     text-align: center;
     margin: auto;
     margin-top: 5%;

@@ -17,10 +17,10 @@ export class NavigationComponent implements OnInit {
     // console.log(event);
     let el = document.getElementById("main");
     let el1 = document.getElementById("navi");
-    // console.log("TOP",el.getBoundingClientRect().top);
+    console.log("TOP",el.getBoundingClientRect().top);
     // console.log(el1.getBoundingClientRect().top);
     // console.log("BOTTOM",el.getBoundingClientRect().bottom);
-    if (el.getBoundingClientRect().bottom <= -64.875) {
+    if (el.getBoundingClientRect().top < 0.875) {
       this.showLogo = false;
     }
     else {
