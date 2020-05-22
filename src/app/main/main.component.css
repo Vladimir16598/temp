@@ -626,6 +626,9 @@ filter: brightness(0) invert(1);
 }
 
 @media (min-width: 1200px) {
+  #layer_37 h1 {
+    font-size: 1.4rem;
+  }
   .carousel-item #big {
     font-size: 27px;
   }
