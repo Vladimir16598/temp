@@ -391,8 +391,15 @@ z-index: 36;
     color: #FA8267;
     padding: 0%;
 }
+
+.codeProNews {
+  font-family: "CodecPro-News";
+}
 #links a, #links img{
   margin-bottom: 5px;
+}
+.links img{
+  padding: 5%;
 }
 #links {
 
@@ -572,7 +579,9 @@ filter: brightness(0) invert(1);
        text-align: right;
      }
 }
-
+.w-70 {
+  width: 70%;
+}
 @media (min-width: 992px) {
   .desktop-bg {
     background-image: url('../../assets/images/v1.png');

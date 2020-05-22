@@ -459,6 +459,10 @@ color: #FA8267;
       padding-left: 10px;
       color: #FA8267;
   }
+
+  .z-index-100 {
+    z-index: 100;
+  }
   .millioner .inner .col-12{
     padding: 0%;
   }

@@ -23,6 +23,9 @@
 .w-75 {
   width: 75%;
 }
+.z-index-100 {
+  z-index: 100;
+}
 .codeProNews {
   font-family: "CodecPro-News";
 }
@@ -267,6 +270,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding-bottom: 0;
 }
 
   .carousel-item h5{
@@ -332,6 +337,6 @@
     max-width: 14.285713795918364548104940274885%;
   }
   .carousel-item img{
-    width: 50%;
+    width: 70%;
   }
 }
