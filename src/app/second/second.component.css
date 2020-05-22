@@ -57,8 +57,9 @@
   width: 100%;
   margin: auto;
   margin-top: 5%;
-  line-height: normal;
+  line-height: unset;
   text-align: center;
+  font-family: "CodecPro-ExtraLight";
   font-size: 80%;
 }
 .carousel-control-prev span, .carousel-control-next span{
@@ -291,9 +292,10 @@
     width: 100%;
     margin: auto;
     margin-top: 5%;
-    line-height: normal;
+    line-height: unset;
     text-align: center;
-    font-size: 100%;
+    font-size: 80%;
+    font-family: "CodecPro-ExtraLight";
   }
 
   .desktop-bg {
@@ -385,9 +387,10 @@
     width: 80%;
     margin: auto;
     margin-top: 5%;
-    line-height: normal;
+    line-height: unset;
     text-align: center;
-    font-size: 80%;
+    font-size: 85%;
+    font-family: "CodecPro-ExtraLight";
   }
 
   .desktop-bg {

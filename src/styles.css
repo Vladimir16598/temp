@@ -28,6 +28,12 @@
 	src: url("assets/CodecPro-Light.eot");
 	src: url("assets/CodecPro-Light.woff") format("woff");
 }
+
+@font-face {
+	font-family: "CodecPro-ExtraLight";
+	src: url("assets/Codec-Cold-Extralight-trial.ttf");
+}
+
 @font-face {
 	font-family: "CodecPro-NewsItalic";
 	src: url("assets/CodecPro-NewsItalic.eot");
