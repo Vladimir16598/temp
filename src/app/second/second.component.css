@@ -44,7 +44,7 @@
   width: 50%;
 }
 .carousel-item img{
-  width: 50%;
+  width: 70%;
 }
 .carousel-item {
   text-align: center;
@@ -172,6 +172,27 @@
 .pr-6 {
   padding-right: 3.5rem !important;
 }
+
+@media (min-width: 768px) {
+  .carousel-item p {
+    font-size: 127%;
+    width: 80%;
+  }
+    .carousel-item h5 {
+    font-size: 1.8rem;
+  }
+  .ww-100 {
+    width: 100% !important;
+  }
+
+  .font-size-2rem {
+    font-size: 2rem;
+  }
+
+  .font-size-1rem {
+    font-size: 1rem;
+  }
+ }
 
 @media (min-width: 992px) {
   .desktop-bg {
@@ -309,5 +330,8 @@
   .col-2-custom {
     flex: 0 0 14.285713795918364548104940274885%;
     max-width: 14.285713795918364548104940274885%;
+  }
+  .carousel-item img{
+    width: 50%;
   }
 }

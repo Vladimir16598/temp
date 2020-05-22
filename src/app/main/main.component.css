@@ -539,6 +539,17 @@ filter: brightness(0) invert(1);
     left: 0%;
 }
 @media (min-width: 768px) {
+  .carousel-item #big {
+    font-size: 2rem;
+  }
+  .name  h1{
+    font-size: 5.5rem;
+  }
+  .perehod-div h5 {
+    font-size: 2rem;
+  }
+
+
   #layer_37 h1{
     margin: 0;
     color: #ffffff;
@@ -571,7 +582,9 @@ filter: brightness(0) invert(1);
 }
 
 @media (min-width: 1200px) {
-
+  .carousel-item #big {
+    font-size: 27px;
+  }
   .col-custom-2 {
     padding: 0%;
     flex: 12.4999994375000028124999859375%;
