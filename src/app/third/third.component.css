@@ -278,11 +278,6 @@ color: #FA8267;
 /*  Средние девайсы («таблетки», >= 768px) */
 @media (min-width: 768px) {
 
-
-  .vh-lg-100 {
-    height: 50vh !important;
-  }
-
   .freelancer .buy button, .recruter .buy button, .bisnessman .buy button, .millioner .buy button{
     font-size: 2rem;
   }
@@ -534,7 +529,10 @@ color: #FA8267;
   .jcc {
     justify-content: center;
   }
- }
+  .vh-lg-100 {
+    height: 50vh !important;
+  }
+}
   .h-40 {
     height: 40%;
   }
@@ -556,7 +554,7 @@ color: #FA8267;
       height: unset !important;
     }
     .freelancer .inner p, .millioner .inner p, .bisnessman .inner p, .recruter .inner p {
-      font-size: .8rem;
+      font-size: .7rem;
     }
     .f-1rem {
       font-size: 1rem;
@@ -569,7 +567,7 @@ color: #FA8267;
       margin-bottom: 0.5rem;
     }
     .freelancer .buy button, .recruter .buy button, .bisnessman .buy button, .millioner .buy button{
-      font-size: 24px;
+      font-size: 1rem;
     }
     .freelancer .inner h4, .recruter .inner h4, .bisnessman .inner h4, .millioner .inner h4{
       font-size: 1.5rem;
@@ -828,6 +826,16 @@ color: #FA8267;
     .l-60 {
       left: 60%;
     }
+    .vh-lg-100 {
+      height: 75vh !important;
+    }
+  }
+
+  @media ( min-width: 992px ) and ( min-height: 1200px )
+  {
+   .vh-lg-100 {
+     height: 50vh !important;
+   }
   }
 
 /* // Экстрабольшие девайсы (большие десктопы, >= 1200px) */

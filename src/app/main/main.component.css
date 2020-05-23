@@ -545,6 +545,7 @@ filter: brightness(0) invert(1);
     /* bottom: 0%; */
     left: 0%;
 }
+
 @media (min-width: 768px) {
   .carousel-item #big {
     font-size: 2rem;
@@ -557,7 +558,7 @@ filter: brightness(0) invert(1);
   }
 
   .vh-lg-100 {
-    height: 50vh !important;
+    height: 75vh !important;
   }
 
   #layer_37 h1{
@@ -586,7 +587,9 @@ filter: brightness(0) invert(1);
   width: 70%;
 }
 @media (min-width: 992px) {
-
+  .vh-lg-100 {
+    height: 75vh !important;
+  }
   #layer_37 h1 {
     font-size: 1rem;
   }
@@ -624,6 +627,13 @@ filter: brightness(0) invert(1);
   .footerRow {
     height: 20%;
   }
+}
+
+@media ( min-width: 992px ) and ( min-height: 1200px )
+{
+ .vh-lg-100 {
+   height: 50vh !important;
+ }
 }
 
 @media (min-width: 1200px) {
