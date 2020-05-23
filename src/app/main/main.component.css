@@ -556,6 +556,9 @@ filter: brightness(0) invert(1);
     font-size: 2rem;
   }
 
+  .vh-lg-100 {
+    height: 50vh !important;
+  }
 
   #layer_37 h1{
     margin: 0;

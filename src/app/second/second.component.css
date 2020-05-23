@@ -49,6 +49,8 @@
   font-family: "CodecPro-News";
   color: #FA8267;
   width: 50%;
+  border: #ffffff 1px solid;
+  border-radius: 10%;
 }
 .carousel-item img{
   width: 70%;
@@ -186,6 +188,12 @@
     font-size: 127%;
     width: 80%;
   }
+
+
+  .vh-lg-100 {
+    height: 50vh !important;
+  }
+
     .carousel-item h5 {
     font-size: 1.8rem;
   }
@@ -343,6 +351,9 @@
   }
   .carousel-item img{
     width: 70%;
+  }
+  .vh-lg-100 {
+    height: 100vh !important;
   }
 }
 @media (min-width: 1200px) {

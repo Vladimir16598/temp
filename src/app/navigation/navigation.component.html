@@ -1,11 +1,19 @@
 <nav class="navbar navbar-expand-lg navbar-dark" id="navi">
-  <a class="ml-auto mr-auto navbar-brand d-flex justify-content-center" href="#">
-    <img [class.w-50]="showLogo" class="smaller" src="../../assets/images/VectorSmartObject_0.png">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
+  <div class="row h-100 ww-100">
+    <div class="col-4">
+    </div>
+    <div class="col-4 p-0">
+      <a class="ml-auto mr-auto navbar-brand d-flex justify-content-center" href="#">
+        <img [class.w-80]="showLogo" class="smaller" src="../../assets/images/VectorSmartObject_0.png">
+      </a>
+    </div>
+    <div class="col-1"></div>
+    <div class="col-3 d-flex align-items-center justify-content-end">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="ml-auto navbar-nav">
       <li class="nav-item active">
@@ -22,4 +30,5 @@
       </li>
     </ul>
   </div>
+
 </nav>

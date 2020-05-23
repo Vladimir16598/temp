@@ -87,6 +87,7 @@
 .freelancer .inner p{
 color: white;
 font-family: "CodecPro-BoldItalic";
+font-size: .8rem;
 }
 .freelancer .inner {
 border: white 1px solid;
@@ -118,6 +119,7 @@ color: #FA8267;
 .recruter .inner p{
   color: #FA8267;
   font-family: "CodecPro-BoldItalic";
+  font-size: 0.8rem;
 }
 .recruter .inner h4{
     background-color: #FA8267;
@@ -137,6 +139,7 @@ color: #FA8267;
     right: -5%;
     bottom: 5%;
     padding-top: 5%;
+    padding-bottom: 5%;
   }
 
 .recruter .buy button{
@@ -160,6 +163,7 @@ color: #FA8267;
 .bisnessman .inner p{
   color: white;
   font-family: "CodecPro-BoldItalic";
+  font-size: .8rem;
 }
 .bisnessman .inner h4{
     background-color: white;
@@ -204,6 +208,7 @@ color: #FA8267;
 .millioner .inner p{
   color: white;
   font-family: "CodecPro-BoldItalic";
+  font-size: .8rem;
 }
 .millioner .inner h4{
     background-color: white;
@@ -273,31 +278,34 @@ color: #FA8267;
 /*  Средние девайсы («таблетки», >= 768px) */
 @media (min-width: 768px) {
 
+
+  .vh-lg-100 {
+    height: 50vh !important;
+  }
+
   .freelancer .buy button, .recruter .buy button, .bisnessman .buy button, .millioner .buy button{
     font-size: 2rem;
   }
   .freelancer .inner h4, .recruter .inner h4, .bisnessman .inner h4, .millioner .inner h4{
     font-size: 2.3rem;
+
   }
   .freelancer .inner p, .recruter .inner p, .bisnessman .inner p, .millioner .inner p{
     font-size: 1.5rem;
   }
   .ww-100 {
     width: 100% !important;
-    }
-    .font-size-1rem {
-      font-size: 2rem;
-    }
-    .w-min-content {
-      width: min-content;
-    }
+  }
+  .font-size-1rem {
+    font-size: 2rem;
+  }
+  .w-min-content {
+    width: min-content;
+  }
 }
 
 /* // Большие девайсы (десктопы, >= 992px) */
 @media (min-width: 992px) {
-  .vh-lg-100 {
-    height: 100vh !important;
-  }
   .freelancer {
     border: white 1px solid;
       border-radius: 5px;
@@ -377,6 +385,7 @@ color: #FA8267;
     right: -5%;
     bottom: 5%;
     padding-top: 5%;
+    padding-bottom: 0%;
   }
 
   .recruter .buy button{

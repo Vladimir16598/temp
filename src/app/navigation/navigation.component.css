@@ -6,7 +6,9 @@
   background-color: #FA8266;
 }
 .smaller {
-  width: 25%;
+  width: 50%;
+
+  transition-duration: .5s;
 }
 .font-bold-italic {
   font-family: "CodecPro-BoldItalic";
@@ -20,10 +22,18 @@
   flex-direction: column;
 }
 .navbar-dark {
-  background-color: #FF8266;
+  background-color: #FA8267;
 }
 .navbar {
   position: sticky;
   top: 0;
   z-index: 3;
+}
+.w-80 {
+  width: 80% !important;
+}
+@media (min-width: 768px) {
+  .ww-100 {
+    width: 100%;
+   }
 }
