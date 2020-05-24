@@ -286,7 +286,7 @@ color: #FA8267;
 
   }
   .freelancer .inner p, .recruter .inner p, .bisnessman .inner p, .millioner .inner p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .ww-100 {
     width: 100% !important;
@@ -529,9 +529,7 @@ color: #FA8267;
   .jcc {
     justify-content: center;
   }
-  .vh-lg-100 {
-    height: 50vh !important;
-  }
+
 }
   .h-40 {
     height: 40%;
@@ -542,6 +540,12 @@ color: #FA8267;
     font-family: "CodecPro-HeavyItalic";
   }
 
+  .links img {
+    width: 80%;
+  }
+  .links a {
+    font-size: 1rem;
+  }
  @media (min-width: 992px) {
 
     .main {
@@ -553,9 +557,7 @@ color: #FA8267;
     .h-unset {
       height: unset !important;
     }
-    .freelancer .inner p, .millioner .inner p, .bisnessman .inner p, .recruter .inner p {
-      font-size: .7rem;
-    }
+
     .f-1rem {
       font-size: 1rem;
     }
@@ -566,12 +568,21 @@ color: #FA8267;
       padding-left: 0% !important;
       margin-bottom: 0.5rem;
     }
+    .freelancer .inner p, .millioner .inner p, .bisnessman .inner p, .recruter .inner p {
+      font-size: .6rem;
+    }
     .freelancer .buy button, .recruter .buy button, .bisnessman .buy button, .millioner .buy button{
-      font-size: 1rem;
+      font-size: .6rem;
     }
     .freelancer .inner h4, .recruter .inner h4, .bisnessman .inner h4, .millioner .inner h4{
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
+
+
+  .premiumTarifHeader h4, .standart-tarifs h4 {
+    font-size: 1.1rem;
+  }
+
     .h-unset {
       height: 100% !important;
     }
@@ -594,7 +605,7 @@ color: #FA8267;
         position: relative;
         right: 33%;
         width: 133%;
-        font-family: "CodecPro-BoldItalic";
+        font-family: "CodecPro-ExtraBoldItalic";
         text-align: right;
         padding-right: 10px;
         color: #FA8267;
@@ -618,7 +629,7 @@ color: #FA8267;
     .freelancer .buy button{
       background-color: white;
       border: 0;
-      font-family: "CodecPro-BoldItalic";
+      font-family: "CodecPro-ExtraBoldItalic";
       color: #FA8267;
     }
 
@@ -645,7 +656,7 @@ color: #FA8267;
         position: absolute;
         left: -10%;
         width: 120%;
-        font-family: "CodecPro-BoldItalic";
+        font-family: "CodecPro-ExtraBoldItalic";
         text-align: center;
         color: white;
         border: white 1px solid;
@@ -663,7 +674,7 @@ color: #FA8267;
     .recruter .buy button{
       background-color: #FA8267;
       border: 0;
-      font-family: "CodecPro-BoldItalic";
+      font-family: "CodecPro-ExtraBoldItalic";
       color: white;
     }
 
@@ -688,7 +699,7 @@ color: #FA8267;
         position: relative;
         left: 0%;
         width: 124%;
-        font-family: "CodecPro-BoldItalic";
+        font-family: "CodecPro-ExtraBoldItalic";
         text-align: left;
         padding-left: 10px;
     }
@@ -707,7 +718,7 @@ color: #FA8267;
     .bisnessman .buy button{
       background-color: white;
       border: 0;
-      font-family: "CodecPro-BoldItalic";
+      font-family: "CodecPro-ExtraBoldItalic";
       color: #FA8267;
     }
     .h-lg-30 {
@@ -746,7 +757,7 @@ color: #FA8267;
         position: relative;
         left: 0%;
         width: 124%;
-        font-family: "CodecPro-BoldItalic";
+        font-family: "CodecPro-ExtraBoldItalic";
         text-align: left;
         padding-left: 10px;
         color: #FA8267;
@@ -766,7 +777,7 @@ color: #FA8267;
     .millioner .buy button{
       background-color: white;
       border: 0;
-      font-family: "CodecPro-BoldItalic";
+      font-family: "CodecPro-ExtraBoldItalic";
       color: #FA8267;
     }
 
@@ -783,7 +794,7 @@ color: #FA8267;
       width: 50%;
     }
     .navigation a{
-      font-size: 1.3rem;
+      font-size: 1.1rem;
       padding: 0%;
       color: #ffffff;
     }
@@ -826,9 +837,6 @@ color: #FA8267;
     .l-60 {
       left: 60%;
     }
-    .vh-lg-100 {
-      height: 75vh !important;
-    }
   }
 
   @media ( min-width: 992px ) and ( min-height: 1200px )
@@ -848,12 +856,20 @@ color: #FA8267;
     margin-top: 10%;
   }
 
+  .freelancer .inner p, .millioner .inner p, .bisnessman .inner p, .recruter .inner p {
+    font-size: .75rem;
+  }
   .freelancer .buy button, .recruter .buy button, .bisnessman .buy button, .millioner .buy button{
-    font-size: 1rem;
+    font-size: .75rem;
   }
   .freelancer .inner h4, .recruter .inner h4, .bisnessman .inner h4, .millioner .inner h4{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
+
+  .premiumTarifHeader h4, .standart-tarifs h4 {
+    font-size: 1.2rem;
+  }
+
   .h-unset {
     height: 100% !important;
   }
@@ -882,7 +898,7 @@ color: #FA8267;
       position: relative;
       right: 33%;
       width: 133%;
-      font-family: "CodecPro-BoldItalic";
+      font-family: "CodecPro-ExtraBoldItalic";
       text-align: right;
       padding-right: 10px;
       color: #FA8267;
@@ -906,7 +922,7 @@ color: #FA8267;
   .freelancer .buy button{
     background-color: white;
     border: 0;
-    font-family: "CodecPro-BoldItalic";
+    font-family: "CodecPro-ExtraBoldItalic";
     color: #FA8267;
   }
 
@@ -933,7 +949,7 @@ color: #FA8267;
       position: absolute;
       left: -10%;
       width: 120%;
-      font-family: "CodecPro-BoldItalic";
+      font-family: "CodecPro-ExtraBoldItalic";
       text-align: center;
       color: white;
       border: white 1px solid;
@@ -951,7 +967,7 @@ color: #FA8267;
   .recruter .buy button{
     background-color: #FA8267;
     border: 0;
-    font-family: "CodecPro-BoldItalic";
+    font-family: "CodecPro-ExtraBoldItalic";
     color: white;
   }
 
@@ -976,7 +992,7 @@ color: #FA8267;
       position: relative;
       left: 0%;
       width: 124%;
-      font-family: "CodecPro-BoldItalic";
+      font-family: "CodecPro-ExtraBoldItalic";
       text-align: left;
       padding-left: 10px;
   }
@@ -995,7 +1011,7 @@ color: #FA8267;
   .bisnessman .buy button{
     background-color: white;
     border: 0;
-    font-family: "CodecPro-BoldItalic";
+    font-family: "CodecPro-ExtraBoldItalic";
     color: #FA8267;
   }
   .h-lg-30 {
@@ -1034,7 +1050,7 @@ color: #FA8267;
       position: relative;
       left: 0%;
       width: 124%;
-      font-family: "CodecPro-BoldItalic";
+      font-family: "CodecPro-ExtraBoldItalic";
       text-align: left;
       padding-left: 10px;
       color: #FA8267;
@@ -1054,7 +1070,7 @@ color: #FA8267;
   .millioner .buy button{
     background-color: white;
     border: 0;
-    font-family: "CodecPro-BoldItalic";
+    font-family: "CodecPro-ExtraBoldItalic";
     color: #FA8267;
   }
 
@@ -1121,4 +1137,107 @@ color: #FA8267;
 
  .l-60 {
   left: 60%;
+}
+@media (min-width: 1400px) {
+  .navigation a {
+    font-size: 1.5rem;
+  }
+  .freelancer .inner p, .millioner .inner p, .bisnessman .inner p, .recruter .inner p {
+    font-size: .9rem;
+  }
+  .freelancer .buy button, .recruter .buy button, .bisnessman .buy button, .millioner .buy button{
+    font-size: .9rem;
+  }
+  .freelancer .inner h4, .recruter .inner h4, .bisnessman .inner h4, .millioner .inner h4{
+    font-size: 1.5rem;
+  }
+  .premiumTarifHeader h4, .standart-tarifs h4 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1600px) {
+  .navigation a {
+    font-size: 1.7rem;
+  }
+  .freelancer .inner p, .millioner .inner p, .bisnessman .inner p, .recruter .inner p {
+    font-size: 1.1rem;
+  }
+  .freelancer .buy button, .recruter .buy button, .bisnessman .buy button, .millioner .buy button{
+    font-size: 1.1rem;
+  }
+  .freelancer .inner h4, .recruter .inner h4, .bisnessman .inner h4, .millioner .inner h4{
+    font-size: 1.7rem;
+  }
+  .premiumTarifHeader h4, .standart-tarifs h4 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 1790px) {
+  .navigation a {
+    font-size: 1.9rem;
+  }
+  .freelancer .inner p, .millioner .inner p, .bisnessman .inner p, .recruter .inner p {
+    font-size: 1.1rem;
+  }
+  .freelancer .buy button, .recruter .buy button, .bisnessman .buy button, .millioner .buy button{
+    font-size: 1.1rem;
+  }
+  .freelancer .inner h4, .recruter .inner h4, .bisnessman .inner h4, .millioner .inner h4{
+    font-size: 1.7rem;
+  }
+  .premiumTarifHeader h4, .standart-tarifs h4 {
+    font-size: 1.7rem;
+  }
+}
+@media (min-width: 2000px) {
+  .navigation a {
+    font-size: 1.9rem;
+  }
+  .freelancer .inner p, .millioner .inner p, .bisnessman .inner p, .recruter .inner p {
+    font-size: 1.3rem;
+  }
+  .freelancer .buy button, .recruter .buy button, .bisnessman .buy button, .millioner .buy button{
+    font-size: 1.3rem;
+  }
+  .freelancer .inner h4, .recruter .inner h4, .bisnessman .inner h4, .millioner .inner h4{
+    font-size: 1.9rem;
+  }
+  .premiumTarifHeader h4, .standart-tarifs h4 {
+    font-size: 1.9rem;
+  }
+}
+@media (min-width: 2500px) {
+  .navigation a {
+    font-size: 2.5rem;
+  }
+  .freelancer .inner p, .millioner .inner p, .bisnessman .inner p, .recruter .inner p {
+    font-size: 1.7rem;
+  }
+  .freelancer .buy button, .recruter .buy button, .bisnessman .buy button, .millioner .buy button{
+    font-size: 1.7rem;
+  }
+  .freelancer .inner h4, .recruter .inner h4, .bisnessman .inner h4, .millioner .inner h4{
+    font-size: 2.5rem;
+  }
+  .premiumTarifHeader h4, .standart-tarifs h4 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 4000px) {
+  .navigation a {
+    font-size: 4rem;
+  }
+  .freelancer .inner p, .millioner .inner p, .bisnessman .inner p, .recruter .inner p {
+    font-size: 2.5rem;
+  }
+  .freelancer .buy button, .recruter .buy button, .bisnessman .buy button, .millioner .buy button{
+    font-size: 2.5rem;
+  }
+  .freelancer .inner h4, .recruter .inner h4, .bisnessman .inner h4, .millioner .inner h4{
+    font-size: 3.5rem;
+  }
+  .premiumTarifHeader h4, .standart-tarifs h4 {
+    font-size: 3.5rem;
+  }
 }

@@ -210,10 +210,17 @@
 
 
 @media (min-width: 992px) {
-  .vh-lg-100 {
-    height: 75vh !important;
+  .pt-6 {
+    padding-top: 3.5rem !important;
   }
-
+  .vh-lg-100 {
+    height: 100vh !important;
+  }
+  .navigation a{
+    padding: 0%;
+    font-size: 1.1rem;
+    color: #ffffff;
+  }
   .desktop-bg {
     background-image: url('../../assets/images/app.png');
     background-repeat: no-repeat;
@@ -307,7 +314,7 @@
     margin-top: 5%;
     line-height: unset;
     text-align: center;
-    font-size: 80%;
+    font-size: .7rem;
     font-family: "CodecPro-ExtraLight";
   }
 
@@ -339,6 +346,12 @@
     justify-content: center;
   }
 
+  .links img {
+    width: 80%;
+  }
+  .links a {
+    font-size: 1rem;
+  }
 
 #SecondCarousel {
   margin-top: 50%;
@@ -365,6 +378,9 @@
 
 
 @media (min-width: 1200px) {
+  .pt-6 {
+    padding-top: 1rem !important;
+  }
   .col-70 {
     max-width: 71.428572408163270903790119450229%;
     flex: 0 0 71.428572408163270903790119450229%;
@@ -394,7 +410,7 @@
 
   .carousel-item h5{
 
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-align: center;
     margin: auto;
     margin-top: 5%;
@@ -405,12 +421,12 @@
 
   .carousel-item p {
     color: #ffffff;
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 5%;
     line-height: unset;
     text-align: center;
-    font-size: 85%;
+    font-size: 0.9rem;
     font-family: "CodecPro-ExtraLight";
   }
 
@@ -458,6 +474,9 @@
   .carousel-item img{
     width: 65%;
   }
+  .navigation a {
+    font-size: 1.3rem;
+  }
 }
 @media (min-width: 1400px) {
   .carousel-item img{
@@ -466,7 +485,7 @@
 
   .carousel-item h5{
 
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     text-align: center;
     margin: auto;
     margin-top: 5%;
@@ -477,12 +496,155 @@
 
   .carousel-item p {
     color: #ffffff;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    line-height: unset;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "CodecPro-ExtraLight";
+  }
+
+  .navigation a {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1600px) {
+
+  .carousel-item h5{
+
+    font-size: 1.6rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
     width: 80%;
+    font-family: "CodecPro-NewsItalic";
+    color: #ffffff;
+  }
+
+
+  .carousel-item p {
+    color: #ffffff;
+    width: 90%;
     margin: auto;
     margin-top: 5%;
     line-height: unset;
     text-align: center;
     font-size: 1.2rem;
+    font-family: "CodecPro-ExtraLight";
+  }
+
+  .navigation a {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 1790px) {
+  .carousel-item h5{
+
+    font-size: 1.6rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    font-family: "CodecPro-NewsItalic";
+    color: #ffffff;
+  }
+
+
+  .carousel-item p {
+    color: #ffffff;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    line-height: unset;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "CodecPro-ExtraLight";
+  }
+
+  .navigation a {
+    font-size: 1.9rem;
+  }
+}
+@media (min-width: 2000px) {
+
+  .carousel-item h5{
+
+    font-size: 1.8rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    font-family: "CodecPro-NewsItalic";
+    color: #ffffff;
+  }
+
+  .navigation a {
+    font-size: 1.9rem;
+  }
+  .carousel-item p {
+    color: #ffffff;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    line-height: unset;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: "CodecPro-ExtraLight";
+  }
+}
+@media (min-width: 2500px) {
+
+  .carousel-item h5{
+
+    font-size: 2.5rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    font-family: "CodecPro-NewsItalic";
+    color: #ffffff;
+  }
+
+  .navigation a {
+    font-size: 2.5rem;
+  }
+  .carousel-item p {
+    color: #ffffff;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    line-height: unset;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "CodecPro-ExtraLight";
+  }
+}
+@media (min-width: 4000px) {
+
+  .carousel-item h5{
+
+    font-size: 4.5rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    font-family: "CodecPro-NewsItalic";
+    color: #ffffff;
+  }
+
+  .navigation a {
+    font-size: 4rem;
+  }
+  .carousel-item p {
+    color: #ffffff;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    line-height: unset;
+    text-align: center;
+    font-size: 3.5rem;
     font-family: "CodecPro-ExtraLight";
   }
 }
