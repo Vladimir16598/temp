@@ -309,6 +309,15 @@ color: #FA8267;
 
 /* // Большие девайсы (десктопы, >= 992px) */
 @media (min-width: 992px) {
+
+
+  .links img {
+    width: 35%;
+  }
+  .links a {
+    font-size: .8rem;
+  }
+
   .freelancer {
     border: white 1px solid;
       border-radius: 5px;
@@ -548,12 +557,6 @@ color: #FA8267;
     font-family: "CodecPro-HeavyItalic";
   }
 
-  .links img {
-    width: 80%;
-  }
-  .links a {
-    font-size: 1rem;
-  }
  @media (min-width: 992px) {
 
     .main {
@@ -857,6 +860,10 @@ color: #FA8267;
 /* // Экстрабольшие девайсы (большие десктопы, >= 1200px) */
 @media (min-width: 1200px) {
 
+  .links a {
+    font-size: .9rem;
+  }
+
   .mar5 {
     margin-top: 5%;
   }
@@ -1146,7 +1153,10 @@ color: #FA8267;
  .l-60 {
   left: 60%;
 }
-@media (min-width: 1400px) {
+@media (min-width: 1340px) {
+  .links a {
+    font-size: 1rem;
+  }
   .navigation a {
     font-size: 1.5rem;
   }
@@ -1164,6 +1174,11 @@ color: #FA8267;
   }
 }
 @media (min-width: 1600px) {
+
+  .links a {
+    font-size: 1.2rem;
+  }
+
   .navigation a {
     font-size: 1.7rem;
   }
@@ -1182,6 +1197,9 @@ color: #FA8267;
 }
 
 @media (min-width: 1790px) {
+  .links a {
+    font-size: 1.3rem;
+  }
   .navigation a {
     font-size: 1.9rem;
   }
@@ -1199,8 +1217,13 @@ color: #FA8267;
   }
 }
 @media (min-width: 2000px) {
+
+  .links a {
+    font-size: 1.5rem;
+  }
+
   .navigation a {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
   .freelancer .inner p, .millioner .inner p, .bisnessman .inner p, .recruter .inner p {
     font-size: 1.3rem;
@@ -1216,6 +1239,9 @@ color: #FA8267;
   }
 }
 @media (min-width: 2500px) {
+  .links a {
+    font-size: 1.8rem;
+  }
   .navigation a {
     font-size: 2.5rem;
   }
@@ -1251,6 +1277,11 @@ color: #FA8267;
   }
 }
 @media (min-width: 4000px) {
+
+  .links a {
+    font-size: 2.8rem;
+  }
+
   .navigation a {
     font-size: 4rem;
   }
@@ -1265,5 +1296,11 @@ color: #FA8267;
   }
   .premiumTarifHeader h4, .standart-tarifs h4 {
     font-size: 3.5rem;
+  }
+}
+@media (min-width: 5000px) {
+
+  .links a {
+    font-size: 3.8rem;
   }
 }

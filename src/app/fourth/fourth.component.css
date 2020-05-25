@@ -143,12 +143,7 @@
   font-size: 1.3rem;
 }
 
-.links img {
-  width: 80%;
-}
-.links a {
-  font-size: 1rem;
-}
+
 
 .mobileText {
   font-size: 1.1rem;
@@ -210,6 +205,14 @@
 }
 
 @media (min-width: 992px){
+
+  .links img {
+    width: 35%;
+  }
+  .links a {
+    font-size: .8rem;
+  }
+
   .h-md-100 {
     height: 100%;
   }
@@ -243,7 +246,9 @@
 }
 
 @media (min-width: 1200px) {
-
+  .links a {
+    font-size: .9rem;
+  }
   .navigation a {
     font-size: 1.3rem;
   }
@@ -285,6 +290,9 @@
 }
 
 @media (min-width: 1400px) {
+  .links a {
+    font-size: 1rem;
+  }
   .first h5 {
     font-size: 1.4rem;
   }
@@ -299,6 +307,9 @@
   }
 }
 @media (min-width: 1600px) {
+  .links a {
+    font-size: 1.2rem;
+  }
   .navigation a {
     font-size: 1.7rem;
   }
@@ -314,6 +325,9 @@
 }
 
 @media (min-width: 1790px) {
+  .links a {
+    font-size: 1.3rem;
+  }
   .navigation a {
     font-size: 1.9rem;
   }
@@ -328,8 +342,12 @@
   }
 }
 @media (min-width: 2000px) {
+  .links a {
+    font-size: 1.5rem;
+  }
+
   .navigation a {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
   .first h5 {
     font-size: 1.7rem;
@@ -342,6 +360,11 @@
   }
 }
 @media (min-width: 2500px) {
+
+  .links a {
+    font-size: 1.8rem;
+  }
+
   .navigation a {
     font-size: 2.5rem;
   }
@@ -370,6 +393,11 @@
   }
 }
 @media (min-width: 4000px) {
+
+  .links a {
+    font-size: 2.8rem;
+  }
+
   .navigation a {
     font-size: 4rem;
   }
@@ -381,5 +409,11 @@
   }
   .footer p {
     font-size: 2.5rem;
+  }
+}
+@media (min-width: 5000px) {
+
+  .links a {
+    font-size: 3.8rem;
   }
 }

@@ -592,10 +592,10 @@ filter: brightness(0) invert(1);
 @media (min-width: 992px) {
 
   .links img {
-    width: 80%;
+    width: 35%;
   }
   .links a {
-    font-size: 1rem;
+    font-size: .8rem;
   }
 
   .vh-lg-100 {
@@ -653,6 +653,9 @@ filter: brightness(0) invert(1);
 
 @media (min-width: 1200px) {
 
+  .links a {
+    font-size: .9rem;
+  }
 
   #layer_37 h1 {
     font-size: 1rem;
@@ -704,7 +707,9 @@ filter: brightness(0) invert(1);
 }
 @media (min-width: 1340px) {
 
-
+  .links a {
+    font-size: 1rem;
+  }
   #right_menu a {
     font-size: 1.5rem;
   }
@@ -720,6 +725,9 @@ filter: brightness(0) invert(1);
 }
 @media (min-width: 1600px) {
 
+  .links a {
+    font-size: 1.2rem;
+  }
 
   #right_menu a {
     font-size: 1.7rem;
@@ -735,6 +743,10 @@ filter: brightness(0) invert(1);
   }
 }
 @media (min-width: 1790px) {
+
+  .links a {
+    font-size: 1.3rem;
+  }
 
   #right_menu a {
     font-size: 1.9rem;
@@ -752,6 +764,11 @@ filter: brightness(0) invert(1);
 
 @media (min-width: 2000px) {
 
+  .links a {
+    font-size: 1.5rem;
+  }
+
+
   #right_menu a {
     font-size: 2.1rem;
   }
@@ -766,6 +783,10 @@ filter: brightness(0) invert(1);
   }
 }
 @media (min-width: 2500px) {
+
+  .links a {
+    font-size: 1.8rem;
+  }
 
   #right_menu a {
     font-size: 2.5rem;
@@ -798,6 +819,30 @@ filter: brightness(0) invert(1);
   }
 }
 @media (min-width: 4000px) {
+
+  .links a {
+    font-size: 2.8rem;
+  }
+
+  #right_menu a {
+    font-size: 4rem;
+  }
+  .carousel-item #big {
+    font-size: 3.5rem;
+  }
+  .carousel-item #small {
+    font-size: 2.5rem;
+  }
+  #layer_37 h1 {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 5000px) {
+
+  .links a {
+    font-size: 3.8rem;
+  }
+
   #right_menu a {
     font-size: 4rem;
   }
