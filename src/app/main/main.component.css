@@ -592,7 +592,7 @@ filter: brightness(0) invert(1);
 @media (min-width: 992px) {
 
   .links img {
-    width: 75%;
+    width: 80%;
   }
   .links a {
     font-size: 1rem;
