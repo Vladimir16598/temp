@@ -780,6 +780,23 @@ filter: brightness(0) invert(1);
     font-size: 2.2rem;
   }
 }
+
+
+
+@media (min-width: 3000px) {
+  #right_menu a {
+    font-size: 3.5rem;
+  }
+  .carousel-item #big {
+    font-size: 2.3rem;
+  }
+  .carousel-item #small {
+    font-size: 1.5rem;
+  }
+  #layer_37 h1 {
+    font-size: 2.2rem;
+  }
+}
 @media (min-width: 4000px) {
   #right_menu a {
     font-size: 4rem;

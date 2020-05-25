@@ -4,6 +4,14 @@
   background-size: 100% 100%;
   /* height: 635px; */
 }
+.custom-col-9-9 {
+  flex: 0 0 11.111613540894489745490486780331%;
+  max-width: 11.111613540894489745490486780331%;
+}
+.custom-col-6-6 {
+  flex: 0 0 5.5550531257721769211761798863356%;
+  max-width: 5.5550531257721769211761798863356%;
+}
 .w-80 {
   width: 80%;
 }
@@ -1222,6 +1230,24 @@ color: #FA8267;
   }
   .premiumTarifHeader h4, .standart-tarifs h4 {
     font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 3000px) {
+  .navigation a {
+    font-size: 3.5rem;
+  }
+  .freelancer .inner p, .millioner .inner p, .bisnessman .inner p, .recruter .inner p {
+    font-size: 2.5rem;
+  }
+  .freelancer .buy button, .recruter .buy button, .bisnessman .buy button, .millioner .buy button{
+    font-size: 2.5rem;
+  }
+  .freelancer .inner h4, .recruter .inner h4, .bisnessman .inner h4, .millioner .inner h4{
+    font-size: 3.5rem;
+  }
+  .premiumTarifHeader h4, .standart-tarifs h4 {
+    font-size: 3.5rem;
   }
 }
 @media (min-width: 4000px) {
